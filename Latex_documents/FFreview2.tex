@@ -1,19 +1,21 @@
-\documentclass[12pt]{article}  % for review and submission
-%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress]{revtex4}  % for double-spaced preprint
+\documentclass[aps,prl,reprint]{revtex4-1}
+
 \usepackage{graphicx}  % needed for figures
 \usepackage{dcolumn}   % needed for some tables
 \usepackage{bm}        % for math
 \usepackage{amssymb}   % for math
-\usepackage{hyperref}  %to use \autoref to reference objects
+%\usepackage{hyperref}  %to use \autoref to reference objects
 \usepackage[export]{adjustbox} %alignment of figures
 
 
 %\linespread{1.8} %double-spacing
 
-\usepackage{anysize}
-\marginsize{20mm}{20mm}{15mm}{15mm}
+%\usepackage{anysize}
+%\marginsize{20mm}{20mm}{15mm}{15mm}
 %\marginsize{left}{right}{top}{bottom}
 %\usepackage[left = 15mm, top = 15mm]{geometry} %margins
+
+\usepackage[url=false, maxcitenames=3]{apsrev4-1}
 
 \providecommand{\e}[1]{\ensuremath{\times 10^{#1}}} %for scientific notation
 \providecommand{\squiggle}{\raise.17ex\hbox{$\scriptstyle\sim$}} %for tilde character
@@ -25,27 +27,22 @@
 %syntax:
 %\includegraphics[scale=1.0]{filepath.extension}
 
-%bibliog
-\usepackage[UKenglish]{babel}
-\usepackage{url}
-\usepackage[backend=bibtex, style=numeric-comp, sorting=none, doi=false,isbn=false,url=false]{biblatex}
-\bibliography{BIB_FFreview}
-% bun citep amirite!!!
-\newcommand{\citep}[1]{\cite{#1}}
-
 % APpendix
 \usepackage[toc,page]{appendix}
 
-% Document
+
 \begin{document}
-
 \title{Current understanding of tokamak plasma eruptions and the consequences for ITER.}
-\author{Joe Allen, JOA509}
-%\date{\today}
-\maketitle
+\author{Joe Allen}
+\email{joa509@york.ac.uk}
+\affiliation{York Plasma Institute, University of York, YO10 5DD
+York, United Kingdom}
 
-\section{Abstract}
-Here will lie the abstract
+\begin{abstract}
+  Here will lie the abstract
+\end{abstract}
+  
+\maketitle
 
 \section{Background}\label{sec:Bg}
 Toroidal magnetic field devices looking to maximise power production must operate in the high confinement regime (H-mode), in which the central plasma density profile is raised up on a pedestal, providing enhanced confinement.\cite{Wagner2007}
@@ -102,10 +99,9 @@ ITER's tungsten divertor introduces further requirements on ELM control\cite{Kir
 Magnitude of field applied by RMP coils is $10^{-4} \squiggle 10^{-3}$ T\cite{Evans2015}
 
 \subsection{Vertical Kicks}\label{ssec:Vkicks}
-Fractional shifts in the vertical position of the plasma, $\squiggle 1-3\%$ of the minor radius\cite{KirkFF}, executed rapidly augment the edge current to attempt to mitigate ELMs.\cite{DelaLuna2016}
 
 \subsection{Pellet Injection}\label{ssec:PInjection}
-ASDEX-U trialled the first usage of pellets to trigger ELMs in 2003.\cite{Lang2003} Projectile pellets provoke type 1 ELMs when they penetrate into the pedestal.\cite{KirkFF}
+
 
 \subsection{Evidence for these methods in practice}\label{ssec:EIP}
 DIII-D experiment showing complete ELM suppression (DIII-D geometry is similar to ITER's)\cite{Mordijck2011}
@@ -121,13 +117,7 @@ Vertical stability coils may be implemented as a fall back ELM control method.\c
 \section{Necessary future work}\label{sec:Future}
 lots
 
-
-\section{I-Mode}
-The I-mode is an operating regime that combines the desirable elements of H- and L-mode\cite{Whyte2010} and has automatic ELM suppression.\cite{Marmar2015} It is more easily available to higher-field machines and has been investigated most considerably on Alcator C-Mod. Core impurity levels are lowered in I-mode as it lacks an edge particle transport barrier, while retaining the edge energy transport barrier. Hence, I-mode can be distinguished by observing an H-mode like temperature pedestal along with an L-mode like density profile.\cite{Whyte2010}
-
-
-
-
-\printbibliography
-
+\bibliographystyle{apsrev4-1} % Tell bibtex which bibliography style to use
+\bibliography{BIB_FFreview2} % Tell bibtex which .bib file to use (e.g. revtex_example.bib)
+  
 \end{document}

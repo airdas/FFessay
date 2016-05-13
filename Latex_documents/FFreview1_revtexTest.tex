@@ -1,5 +1,5 @@
-\documentclass[12pt]{article}  % for review and submission
-%\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress]{revtex4}  % for double-spaced preprint
+%\documentclass[12pt]{article}  % for review and submission
+\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress]{revtex4-1}  % for double-spaced preprint
 \usepackage{graphicx}  % needed for figures
 \usepackage{dcolumn}   % needed for some tables
 \usepackage{bm}        % for math
@@ -28,7 +28,7 @@
 %bibliog
 \usepackage[UKenglish]{babel}
 \usepackage{url}
-\usepackage[backend=bibtex, style=numeric-comp, sorting=none, doi=false,isbn=false,url=false]{biblatex}
+\usepackage[backend=bibtex, style=numeric-comp, sorting=none, doi=false,isbn=false,url=false]{apsrev4-1}
 \bibliography{BIB_FFreview}
 % bun citep amirite!!!
 \newcommand{\citep}[1]{\cite{#1}}
@@ -102,10 +102,9 @@ ITER's tungsten divertor introduces further requirements on ELM control\cite{Kir
 Magnitude of field applied by RMP coils is $10^{-4} \squiggle 10^{-3}$ T\cite{Evans2015}
 
 \subsection{Vertical Kicks}\label{ssec:Vkicks}
-Fractional shifts in the vertical position of the plasma, $\squiggle 1-3\%$ of the minor radius\cite{KirkFF}, executed rapidly augment the edge current to attempt to mitigate ELMs.\cite{DelaLuna2016}
 
 \subsection{Pellet Injection}\label{ssec:PInjection}
-ASDEX-U trialled the first usage of pellets to trigger ELMs in 2003.\cite{Lang2003} Projectile pellets provoke type 1 ELMs when they penetrate into the pedestal.\cite{KirkFF}
+
 
 \subsection{Evidence for these methods in practice}\label{ssec:EIP}
 DIII-D experiment showing complete ELM suppression (DIII-D geometry is similar to ITER's)\cite{Mordijck2011}
@@ -122,8 +121,6 @@ Vertical stability coils may be implemented as a fall back ELM control method.\c
 lots
 
 
-\section{I-Mode}
-The I-mode is an operating regime that combines the desirable elements of H- and L-mode\cite{Whyte2010} and has automatic ELM suppression.\cite{Marmar2015} It is more easily available to higher-field machines and has been investigated most considerably on Alcator C-Mod. Core impurity levels are lowered in I-mode as it lacks an edge particle transport barrier, while retaining the edge energy transport barrier. Hence, I-mode can be distinguished by observing an H-mode like temperature pedestal along with an L-mode like density profile.\cite{Whyte2010}
 
 
 

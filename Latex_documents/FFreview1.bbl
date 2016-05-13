@@ -19,14 +19,14 @@
 \entry{Wagner2007}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {F}{F}%
      {Wagner}{W.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
   }
   \keyw{H-mode}
-  \strng{namehash}{FW1}
-  \strng{fullhash}{FW1}
+  \strng{namehash}{WF1}
+  \strng{fullhash}{WF1}
   \verb{doi}
   \verb 10.1088/0741-3335/49/12B/S01
   \endverb
@@ -35,9 +35,6 @@
   \field{number}{12B}
   \field{pages}{1\bibrangedash 33}
   \field{title}{{A quarter-century of H-mode studies}}
-  \verb{url}
-  \verb stacks.iop.org/PPCF/49/B1 Abstract
-  \endverb
   \field{volume}{49}
   \verb{file}
   \verb :home/joa509/Fusion{\_}Frontiers/Papers/ppcf7{\_}12B{\_}S01.pdf:pdf
@@ -58,6 +55,36 @@
   plasma,tokamak}
   \strng{namehash}{HD1}
   \strng{fullhash}{HD1}
+  \field{abstract}{%
+  Edge localized modes (ELMs) are the focus of increasing attention by the edge
+  physics community because of the potential impact that the large divertor
+  heat pulses due to ELMs would have on the divertor design of future high
+  power tokamaks such as ITER. This paper reviews what is known about ELMs,
+  with an emphasis on their effect on the scrape-off layer and divertor
+  plasmas. ELM effects have been measured in the ASDEX-U, C-Mod, COMPASS-D,
+  DIII-D, JET, JFT-2M, JT-60U and TCV tokamaks,and are reported here. At least
+  three types of ELMs have been identified and their salient features
+  determined. Type 1 giant ELMs can cause the sudden loss of up to 10-15{\%} of
+  the plasma stored energy, but their amplitude (Delta W/W) does not increase
+  with heating power. Type 3 ELMs are observed near the II-mode power threshold
+  and produce small energy dumps (1-3{\%} of the stored energy). All ELMs
+  increase the scrape-off layer plasma and produce particle fluxes on the
+  divertor targets which are as much as ten times larger than the quiescent
+  phase between ELMs. The divertor heat pulse is largest on the inner target,
+  unlike that of L-mode or quiescent PI-mode; some tokamaks report radial
+  structure in the heat flux profile which is suggestive of islands or helical
+  structures. The power scaling of type 1 ELM amplitude and frequency has been
+  measured in several tokamaks and has recently been applied to predictions of
+  the ELM size in ITER. Concern over the expected ELM amplitude has led to a
+  number of experiments aimed at demonstrating active control of ELMs. Impurity
+  gas injection with feedback control on the radiation loss in ASDEX-U suggests
+  that a promising mode of operation (the CDH-mode) with very small type 3 ELMs
+  can be maintained with heating power well above the II-mode threshold, where
+  giant type 1 ELMs are normally observed. While ELMs have many potential
+  negative effects, the beneficial effect of ELMs in providing density control
+  and limiting the core plasma impurity content in high confinement II-mode
+  discharges should not be overlooked.%
+  }
   \verb{doi}
   \verb 10.1016/S0022-3115(97)80039-6
   \endverb
@@ -86,7 +113,7 @@
      {}{}}%
     {{}%
      {Kirk}{K.}%
-     {A.}{A.}%
+     {a.}{a.}%
      {}{}%
      {}{}}%
     {{}%
@@ -100,8 +127,10 @@
      {}{}%
      {}{}}%
   }
+  \keyw{52,55 fa 52,55 rk 52,55 tn,divertor heat loads,elm
+  mitigation,elms,filaments,pacs,peeling-ballooning modes}
   \strng{namehash}{CJW+1}
-  \strng{fullhash}{CJWKAWHRBS1}
+  \strng{fullhash}{CJWKaWHRBS1}
   \verb{doi}
   \verb 10.1063/1.2939030
   \endverb
@@ -165,15 +194,40 @@
   \keyw{Divertor erosion,ELM,ELMs ITER,ITER,P05,P06}
   \strng{namehash}{LAW+1}
   \strng{fullhash}{LAWHAIKLJLAOTHSW1}
+  \field{abstract}{%
+  Edge-Localized-Modes (ELMs) are expected to present a significant transient
+  flux of energy and particles to the ITER divertor. The threshold for ablation
+  of the graphite target will be reached if the ELM transient exceeds Q/t1/2 to
+  approximately 45 MJ m-2 s-1/2 where Q is the ELM deposition energy density
+  and t the ELM deposition time. The ablation parameter in ITER can be
+  determined by scaling four factors from present experiments: the ELM energy
+  loss from the core plasma, the fraction of ELM energy deposited on the
+  divertor target, the area of the ELM profile onto the target, and finally the
+  time for the ELM deposition. Review of the ELM energy loss of Type I ELM data
+  suggests an ITER ELM energy loss of 2-6{\%} of the stored energy or 25-80 MJ.
+  The fraction of heating power crossing the separatrix due to ELMs is nearly
+  constant (20-40{\%}) resulting in an inverse relationship between ELM
+  amplitude and frequency. Measurements on DIII-D and ASDEX-Upgrade indicate
+  that 50-80{\%} of the ELM energy is deposited on the target. There is
+  currently no evidence for a large fraction of the ELM energy being dissipated
+  through radiation. Profiles of the ELM heat flux are typically 1-2 times the
+  width of steady heat flux between ELMs, with the ELM amplitude usually larger
+  on the inboard target. The ELM deposition time varies from about 0.1 ms in
+  JET to as high as 1.0 ms in ASDEX-Upgrade and DIII-D. The ELM deposition time
+  for ITER will depend upon the level of conductive versus convective transport
+  determined by the ratio of energy to particles released by the ELM.
+  Preliminary analysis suggests that large Type I ELMs for low recycling H-mode
+  may exceed the ablation parameter by a factor of 5. Promising regimes with
+  smaller ELMS have been found at other edge operational regimes, including
+  high density with gas puffing, use of RF heating and operation with Type III
+  ELMs.%
+  }
   \verb{doi}
   \verb 10.1016/S0022-3115(98)00522-4
   \endverb
   \field{issn}{00223115}
   \field{pages}{109\bibrangedash 117}
   \field{title}{{Impact of ELMs on the ITER divertor}}
-  \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S0022311598005224
-  \endverb
   \field{volume}{266}
   \verb{file}
   \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
@@ -192,7 +246,7 @@
   \name{author}{16}{}{%
     {{}%
      {Loarte}{L.}%
-     {a}{a}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -271,13 +325,35 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{La+1}
-  \strng{fullhash}{LaBMSGSRCDJETHALMSWABLPJMGJSOJIPCEJW1}
+  \strng{namehash}{LA+1}
+  \strng{fullhash}{LABMSGSRCDJETHALMSWABLPJMGJSOJIPCEJW1}
+  \field{abstract}{%
+  Recent experiments on the Type I ELMy H-mode regime performed at JET with
+  improved diagnostics have expanded the range of parameters for the study of
+  Type I ELM energy and particle losses. Deviations from the standard behaviour
+  of such losses in some areas of the Type I ELMy H-mode operating space have
+  revealed that the ELM losses are correlated with the parameters (density and
+  temperature) of the pedestal plasma before the ELM crash, while other global
+  ELM characteristics (such as ELM frequency) are a consequence of the
+  ELM-driven energy and particle flux and of the in-between ELM energy and
+  particle confinement. The relative Type I ELM plasma energy loss (to the
+  pedestal energy) is found to correlate well with the collisionality of the
+  pedestal plasma, showing a weak dependence on the method used to achieve
+  those pedestal plasma parameters: plasma shaping, heating, pellet injection
+  and impurity seeding. Effects of edge plasma collisionality and transport
+  along the magnetic field,on the Type I ELM particle and energy fluxes onto
+  the divertor target have also been observed. Two possible physical mechanisms
+  that may give rise to the observed collisionality dependence of ELM energy
+  losses are proposed and their consistency with the experimental measurements
+  investigated: collisionality dependence of the edge bootstrap current with
+  its associated influence on the ELM MHD origin and the limitation of the ELM
+  energy loss by the impedance of the divertor target sheath to energy flow
+  during the ELM event.%
+  }
   \verb{doi}
   \verb 10.1088/0741-3335/44/9/303
   \endverb
   \field{isbn}{0741-3335}
-  \field{issn}{0741-3335}
   \field{number}{9}
   \field{pages}{1815\bibrangedash 1844}
   \field{title}{{Characteristics and scaling of energy and particle losses
@@ -299,8 +375,8 @@
      {}{}}%
     {{}%
      {Leonard}{L.}%
-     {A.W.}{A.}%
      {}{}%
+     {a.W.}{a.}%
      {}{}}%
     {{}%
      {Pitts}{P.}%
@@ -324,17 +400,17 @@
      {}{}}%
     {{}%
      {Herrmann}{H.}%
-     {A.}{A.}%
+     {a.}{a.}%
      {}{}%
      {}{}}%
     {{}%
      {Kirk}{K.}%
-     {A.}{A.}%
+     {a.}{a.}%
      {}{}%
      {}{}}%
     {{}%
      {Kallenbach}{K.}%
-     {A.}{A.}%
+     {a.}{a.}%
      {}{}%
      {}{}}%
     {{}%
@@ -344,8 +420,8 @@
      {}{}}%
     {{}%
      {Kukushkin}{K.}%
-     {A.S.}{A.}%
      {}{}%
+     {a.S.}{a.}%
      {}{}}%
     {{}%
      {LaBombard}{L.}%
@@ -364,7 +440,7 @@
      {}{}}%
     {{}%
      {Scarabosio}{S.}%
-     {A.}{A.}%
+     {a.}{a.}%
      {}{}%
      {}{}}%
     {{}%
@@ -379,12 +455,31 @@
      {}{}}%
     {{}%
      {Thornton}{T.}%
-     {A.}{A.}%
+     {a.}{a.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{ET+1}
-  \strng{fullhash}{ETLAPRFWGRGTHAKAKAKOKALBMRMMSASBTJTA1}
+  \strng{fullhash}{ETLaPRFWGRGTHaKaKaKOKaLBMRMMSaSBTJTa1}
+  \field{abstract}{%
+  A multi-machine database for the H-mode scrape-off layer power fall-off
+  length, $\lambda$q in JET, DIII-D, ASDEX Upgrade, C-Mod, NSTX and MAST has
+  been assembled under the auspices of the International Tokamak Physics
+  Activity. Regression inside the database finds that the most important
+  scaling parameter is the poloidal magnetic field (or equivalently the plasma
+  current), with $\lambda$q decreasing linearly with increasing Bpol. For the
+  conventional aspect ratio tokamaks, the regression finds , yielding
+  $\lambda$q,ITER ≅ 1 mm for the baseline inductive H-mode burning plasma
+  scenario at Ip = 15 MA. The experimental divertor target heat flux profile
+  data, from which $\lambda$q is derived, also yield a divertor power spreading
+  factor (S) which, together with $\lambda$q, allows an integral power decay
+  length on the target to be estimated. There are no differences in the
+  $\lambda$q scaling obtained from all-metal or carbon dominated machines and
+  the inclusion of spherical tokamaks has no significant influence on the
+  regression parameters. Comparison of the measured $\lambda$q with the values
+  expected from a recently published heuristic drift based model shows
+  satisfactory agreement for all tokamaks.%
+  }
   \verb{doi}
   \verb 10.1088/0029-5515/53/9/093031
   \endverb
@@ -394,7 +489,8 @@
   \field{title}{{Scaling of the tokamak near the scrape-off layer H-mode power
   width and implications for ITER}}
   \verb{url}
-  \verb http://iopscience.iop.org/0029-5515/53/9/093031/article/
+  \verb http://proxy-net.snu.ac.kr/6356f7/{\_}Lib{\_}Proxy{\_}Url/iopscience.io
+  \verb p.org/0029-5515/53/9/093031/article/
   \endverb
   \field{volume}{53}
   \verb{file}
@@ -582,6 +678,48 @@
   }
   \strng{namehash}{LA+1}
   \strng{fullhash}{LAHGFSBLRETEODMSOBMCPGYKANaSCDJCTDEFHKALRLSPRaSGWASACDJCTDEFHKALRLSPRaSGWA1}
+  \field{abstract}{%
+  Progress in the definition of the requirements for edge localized mode (ELM)
+  control and the application of ELM control methods both for high fusion
+  performance DT operation and non-active low-current operation in ITER is
+  described. Evaluation of the power fluxes for low plasma current H-modes in
+  ITER shows that uncontrolled ELMs will not lead to damage to the tungsten (W)
+  divertor target, unlike for high-current H-modes in which divertor damage by
+  uncontrolled ELMs is expected. Despite the lack of divertor damage at lower
+  currents, ELM control is found to be required in ITER under these conditions
+  to prevent an excessive contamination of the plasma by W, which could
+  eventually lead to an increased disruptivity. Modelling with the non-linear
+  MHD code JOREK of the physics processes determining the flow of energy from
+  the confined plasma onto the plasma-facing components during ELMs at the ITER
+  scale shows that the relative contribution of conductive and convective
+  losses is intrinsically linked to the magnitude of the ELM energy loss.
+  Modelling of the triggering of ELMs by pellet injection for DIII-D and ITER
+  has identified the minimum pellet size required to trigger ELMs and, from
+  this, the required fuel throughput for the application of this technique to
+  ITER is evaluated and shown to be compatible with the installed fuelling and
+  tritium re-processing capabilities in ITER. The evaluation of the
+  capabilities of the ELM control coil system in ITER for ELM suppression is
+  carried out (in the vacuum approximation) and found to have a factor of ∼2
+  margin in terms of coil current to achieve its design criterion, although
+  such a margin could be substantially reduced when plasma shielding effects
+  are taken into account. The consequences for the spatial distribution of the
+  power fluxes at the divertor of ELM control by three-dimensional (3D) fields
+  are evaluated and found to lead to substantial toroidal asymmetries in zones
+  of the divertor target away from the separatrix. Therefore, specifications
+  for the rotation of the 3D perturbation applied for ELM control in order to
+  avoid excessive localized erosion of the ITER divertor target are derived. It
+  is shown that a rotation frequency in excess of 1 Hz for the whole toroidally
+  asymmetric divertor power flux pattern is required (corresponding to n Hz
+  frequency in the variation of currents in the coils, where n is the toroidal
+  symmetry of the perturbation applied) in order to avoid unacceptable thermal
+  cycling of the divertor target for the highest power fluxes and worst
+  toroidal power flux asymmetries expected. The possible use of the in-vessel
+  vertical stability coils for ELM control as a back-up to the main ELM control
+  systems in ITER is described and the feasibility of its application to
+  control ELMs in low plasma current H-modes, foreseen for initial ITER
+  operation, is evaluated and found to be viable for plasma currents up to
+  5–10 MA depending on modelling assumptions.%
+  }
   \verb{doi}
   \verb 10.1088/0029-5515/54/3/033007
   \endverb
@@ -591,7 +729,11 @@
   \field{title}{{Progress on the application of ELM control schemes to ITER
   scenarios from the non-active phase to DT operation}}
   \verb{url}
-  \verb http://iopscience.iop.org/0029-5515/54/3/033007/pdf/0029-5515
+  \verb http://stacks.iop.org/0029-5515/54/i=3/a=033007?key=crossref.102ce15c82
+  \verb c7bfb93851229d22ba3ed3$\backslash$nhttp://iopscience.iop.org/0029-5515/
+  \verb 54/3/033007$\backslash$nhttp://iopscience.iop.org/0029-5515/54/3/033007
+  \verb /$\backslash$nhttp://iopscience.iop.org/0029-5515/54/3/033007/pdf/0029-
+  \verb 5515
   \endverb
   \field{volume}{54}
   \verb{file}
@@ -610,7 +752,7 @@
      {}{}}%
     {{}%
      {Loarte}{L.}%
-     {A}{A}%
+     {a}{a}%
      {}{}%
      {}{}}%
     {{}%
@@ -619,8 +761,33 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{FGLASG1}
-  \strng{fullhash}{FGLASG1}
+  \strng{namehash}{FGLaSG1}
+  \strng{fullhash}{FGLaSG1}
+  \field{abstract}{%
+  This paper presents the results of a preliminary assessment conducted to
+  estimate the thermal response and erosion lifetime of the ITER divertor
+  targets clad either with carbon-fibre composite or tungsten during type I
+  ELMs. The one-dimensional thermal/erosion model, used for the analyses, is
+  briefly described. It includes all the key surface heat transfer processes
+  such as evaporation, melting, and radiation, and their interaction with the
+  bulk thermal response, and it is based on an implicit finite-difference
+  scheme, which allows for temperature-dependent material properties. The cases
+  analysed clarify the influence of several ELM parameters on the heat transfer
+  and erosion processes at the target (i.e. characteristic plasma ELM energy
+  loss from the pedestal, fraction of the energy reaching the divertor,
+  broadening of the strike-points during ELMs, duration and waveform of the ELM
+  heat load) and design/material parameters (i.e. inclination of the target,
+  type and thickness of the armour material, and for tungsten only, fraction of
+  the melt layer loss). Comparison is made between cases where all ELMs are
+  characterized by the same fixed averaged parameters, and cases where instead
+  the characteristic parameters of each ELM are evaluated in a random fashion
+  by using a standard Monte Carlo technique, based on distributions of some of
+  the variables of interest derived from experiments in today's machines.
+  Although uncertainties rule out providing firm quantitative predictions, the
+  results of this study are useful to illustrate trends. Based on the results,
+  the implications on the design and operation are discussed and priorities are
+  determined for the R{\&}D needed to reduce the remaining uncertainties.%
+  }
   \verb{doi}
   \verb 10.1088/0741-3335/45/9/301
   \endverb
@@ -648,6 +815,9 @@
   \list{publisher}{1}{%
     {IOP Publishing}%
   }
+  \keyw{1,boundary plasma,in colour only in,introduction and
+  background,resonant magnetic perturbations,some figures may appear,the online
+  journal,toroidal confinement}
   \strng{namehash}{ETE1}
   \strng{fullhash}{ETE1}
   \verb{doi}
@@ -670,6 +840,312 @@
   \endverb
   \field{journaltitle}{Plasma Physics and Controlled Fusion}
   \field{year}{2015}
+\endentry
+
+\entry{DelaLuna2016}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Luna}{L.}%
+     {E.}{E.}%
+     {de~la}{d.~l.}%
+     {}{}}%
+    {{}%
+     {Chapman}{C.}%
+     {I.T.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rimini}{R.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lomas}{L.}%
+     {P.J.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saibene}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koechl}{K.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sartori}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saarelma}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albanese}{A.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flanagan}{F.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maviglia}{M.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parail}{P.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sips}{S.}%
+     {A.C.C.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Solano}{S.}%
+     {E.R.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {contributors}{c.}%
+     {JET}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{LEdl+1}
+  \strng{fullhash}{LEdlCIRFLPSGKFSRSSARFJMFPVSASEcJ1}
+  \verb{doi}
+  \verb 10.1088/0029-5515/56/2/026001
+  \endverb
+  \field{issn}{0029-5515}
+  \field{number}{2}
+  \field{pages}{026001}
+  \field{title}{{Understanding the physics of ELM pacing via vertical kicks in
+  JET in view of ITER}}
+  \field{volume}{56}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/de la Luna et al. - 2016 - Understanding the physics of ELM pacing vi
+  \verb a vertical kicks in JET in view of ITER.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{annotation}{%
+  cited in AK's talk SLIDE 139%
+  }
+  \field{year}{2016}
+\endentry
+
+\entry{Lang2003}{article}{}
+  \name{author}{29}{}{%
+    {{}%
+     {Lang}{L.}%
+     {P~T}{P.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neuhauser}{N.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Horton}{H.}%
+     {L~D}{L.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eich}{E.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fattorini}{F.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fuchs}{F.}%
+     {J~C}{J.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gehre}{G.}%
+     {O}{O}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herrmann}{H.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ign{\'{a}}cz}{I.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jakobi}{J.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {K{\'{a}}lvin}{K.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaufmann}{K.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kocsis}{K.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kurzan}{K.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maggi}{M.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manso}{M.}%
+     {M~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maraschek}{M.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mertens}{M.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M{\"{u}}ck}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murmann}{M.}%
+     {H~D}{H.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Neu}{N.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nunes}{N.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reich}{R.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reich}{R.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saarelma}{S.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sandmann}{S.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stober}{S.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vogl}{V.}%
+     {U}{U}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Team}{T.}%
+     {the ASDEX~Upgrade}{t.~A.~U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LPT+1}
+  \strng{fullhash}{LPTNJHLDETFLFJCGOHAIPJMKSKMKGKBMCMMEMMMVMAMHDNRNIRDRMSSSWSJVUTtAU1}
+  \field{abstract}{%
+  Injection of cryogenic deuterium pellets has been successfully applied in
+  ASDEX Upgrade for external edge localized mode (ELM) frequency control in
+  type-I ELMy H-mode discharge scenarios. A pellet velocity of 560 m s −1
+  and a size of about 6 × 10 19 D-atoms was selected for technical reasons,
+  although even lower masses were found sufficient to trigger ELMs. A moderate
+  repetition rate close to 20 Hz was chosen to avoid over-fuelling of the
+  core plasma. Pellet sequences of up to 4 s duration were injected into
+  discharges close to the L–H threshold, intrinsically developing large
+  compound ELMs at a rate of 3 Hz. With pellet injection, these large ELMs
+  were completely replaced by smaller type-I ELMs at the much higher pellet
+  frequency, accompanied by a slight increase of density and even of stored
+  energy. This external ELM control could be repeatedly switched on and off by
+  just interrupting the pellet train. ELMs were triggered in less than
+  200 µs after pellet arrival at the plasma edge, at which time only a
+  fraction of the pellet has been ablated, forming a rather localized,
+  three-dimensional plasmoid, which drives the edge unstable well before the
+  deposited mass is spread toroidally. The pellet controlled case has also been
+  compared with a discharge at a somewhat lower density, but with otherwise
+  rather similar data, developing spontaneous 20 Hz type-I ELMs. Despite the
+  different trigger mechanisms, the general ELM features turn out to be
+  qualitatively similar, possibly because of the similarity of the two cases in
+  terms of ELM relevant parameters. The scaling with background plasma, heating
+  power, pellet launch parameters, etc over a larger range still remains to be
+  investigated.%
+  }
+  \verb{doi}
+  \verb 10.1088/0029-5515/43/10/012
+  \endverb
+  \field{isbn}{0029-5515}
+  \field{issn}{0029-5515}
+  \field{number}{10}
+  \field{pages}{1110\bibrangedash 1120}
+  \field{title}{{ELM frequency control by continuous small pellet injection in
+  ASDEX Upgrade}}
+  \verb{url}
+  \verb http://stacks.iop.org/0029-5515/43/i=10/a=012$\backslash$npapers3://pub
+  \verb lication/doi/10.1088/0029-5515/43/10/012
+  \endverb
+  \field{volume}{43}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Lang et al. - 2003 - ELM frequency control by continuous small pellet
+  \verb  injection in ASDEX Upgrade.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{annotation}{%
+  cited in AK's talk SLIDE 138%
+  }
+  \field{year}{2003}
 \endentry
 
 \entry{Mordijck2011}{article}{}
@@ -870,6 +1346,28 @@
   \keyw{D TOKAMAK,ENERGY,ERROR-FIELD,MAGNETIC PERTURBATIONS,PARTICLE,TRANSPORT}
   \strng{namehash}{ETE+1}
   \strng{fullhash}{ETEFMEMRAOTHWJGGPJISMJBLRBMBJABKHDJSFKHJTJMWLCJLMLAWLJNEPVSOUBWWP1}
+  \field{abstract}{%
+  Large Type-I edge localized modes (ELMs) are completely eliminated with small
+  n = 3 resonant magnetic perturbations (RMP) in low average triangularity,
+  (delta) over bar = 0.26, plasmas and in ITER similar shaped (ISS) plasmas,
+  delta = 0.53, with ITER relevant collisionalities v(e)* {\textless}= 0.2.
+  Significant differences in the RMP requirements and in the properties of the
+  ELM suppressed plasmas are found when comparing the two triangularities. In
+  ISS plasmas, the current required to suppress ELMs is approximately 25{\%}
+  higher than in low average triangularity plasmas. It is also found that the
+  width of the resonant q(95) window required for ELM suppression is smaller in
+  ISS plasmas than in low average triangularity plasmas. An analysis of the
+  positions and widths of resonant magnetic islands across the pedestal region,
+  in the absence of resonant field screening or a self-consistent plasma
+  response, indicates that differences in the shape of the q profile may
+  explain the need for higher RMP coil currents during ELM suppression in ISS
+  plasmas. Changes in the pedestal profiles are compared for each plasma shape
+  as well as with changes in the injected neutral beam power and the RMP
+  amplitude. Implications of these results are discussed in terms of
+  requirements for optimal ELM control coil designs and for establishing the
+  physics basis needed in order to scale this approach to future burning plasma
+  devices such as ITER.%
+  }
   \verb{doi}
   \verb 10.1088/0029-5515/48/2/024002
   \endverb
@@ -880,8 +1378,9 @@
   \field{title}{{RMP ELM suppression in DIII-D plasmas with ITER similar shapes
   and collisionalities}}
   \verb{url}
-  \verb http://iopscience.iop.org/0029-5515/48/2/024002/pdf/0029-5515{\_}48{\_}
-  \verb 2{\_}024002.pdf
+  \verb {\textless}Go to ISI{\textgreater}://WOS:000255131200003$\backslash$nht
+  \verb tp://iopscience.iop.org/0029-5515/48/2/024002/pdf/0029-5515{\_}48{\_}2{
+  \verb \_}024002.pdf
   \endverb
   \field{volume}{48}
   \verb{file}
@@ -893,39 +1392,474 @@
   \field{year}{2008}
 \endentry
 
-\entry{Loarte2010}{article}{}
-  \name{author}{4}{}{%
+\entry{Loarte2010}{inproceedings}{}
+  \name{author}{1}{}{%
     {{}%
      {Loarte}{L.}%
-     {A}{A}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Campbell}{C.}%
-     {D}{D}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gribov}{G.}%
-     {Y}{Y}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pitts}{P.}%
-     {R}{R}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{LA+2}
-  \strng{fullhash}{LACDGYPR1}
+  \strng{namehash}{LA1}
+  \strng{fullhash}{LA1}
   \field{number}{October}
-  \field{pages}{1\bibrangedash 637}
+  \field{pages}{545\bibrangedash 546}
   \field{title}{{23rd IAEA Fusion Energy Conference, 11–16 October 2010,
   Daejeon, Republic of Korea, Book of Abstracts}}
-  \verb{url}
-  \verb https://inis.iaea.org/search/search.aspx?orig{\{}{\_}{\}}q=RN:43043504
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/IAEA{\_}23rdfusion.pdf:pdf
   \endverb
+  \field{annotation}{%
+  keeps changing the author the piece of shit%
+  }
   \field{year}{2010}
+\endentry
+
+\entry{Whyte2010}{article}{}
+  \name{author}{20}{}{%
+    {{}%
+     {Whyte}{W.}%
+     {D.G.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hubbard}{H.}%
+     {}{}%
+     {a.E.}{a.}%
+     {}{}}%
+    {{}%
+     {Hughes}{H.}%
+     {J.W.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lipschultz}{L.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rice}{R.}%
+     {J.E.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marmar}{M.}%
+     {E.S.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenwald}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cziegler}{C.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dominguez}{D.}%
+     {a.}{a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Golfinopoulos}{G.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Howard}{H.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McDermott}{M.}%
+     {R.M.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porkolab}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinke}{R.}%
+     {M.L.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Terry}{T.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tsujii}{T.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolfe}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wukitch}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WD+1}
+  \strng{fullhash}{WDHaHJLBRJMEGMCIDaGTHNLLMRPMRMTJTNWSWSLY1}
+  \field{abstract}{%
+  An improved energy confinement regime, I-mode, is studied in Alcator C-Mod, a
+  compact high-field divertor tokamak using ion cyclotron range of frequencies
+  (ICRFs) auxiliary heating. I-mode features an edge energy transport barrier
+  without an accompanying particle barrier, leading to several performance
+  benefits. H-mode energy confinement is obtained without core impurity
+  accumulation, resulting in reduced impurity radiation with a high-Z metal
+  wall and ICRF heating. I-mode has a stationary temperature pedestal with edge
+  localized modes typically absent, while plasma density is controlled using
+  divertor cryopumping. I-mode is a confinement regime that appears distinct
+  from both L-mode and H-mode, combining the most favourable elements of both.
+  The I-mode regime is investigated predominately with ion ∇B drift away from
+  the active X-point. The transition from L-mode to I-mode is primarily
+  identified by the formation of a high temperature edge pedestal, while the
+  edge density profile remains nearly identical to L-mode. Laser blowoff
+  injection shows that I-mode core impurity confinement times are nearly
+  identical with those in L-mode, despite the enhanced energy confinement. In
+  addition, a weakly coherent edge MHD mode is apparent at high frequency
+  ∼100–300 kHz which appears to increase particle transport in the edge.
+  The I-mode regime has been obtained over a wide parameter space (BT = 3–6
+  T, Ip = 0.7–1.3MA, q95 = 2.5–5). In general, the I-mode exhibits the
+  strongest edge temperature pedestal (Tped) and normalized energy confinement
+  (H98 {\textgreater} 1) at low q95 ({\textless}3.5) and high heating power
+  (Pheat {\textgreater} 4MW). I-mode significantly expands the operational
+  space of edge localized mode (ELM)-free, stationary pedestals in C-Mod to
+  Tped ∼ 1 keV and low collisionality $\nu$∗ ped ∼ 0.1, as compared with
+  EDA H-mode with Tped {\textless} 0.6 keV, $\nu$∗ has a relatively weak
+  degradation with heating power;Wth ∼ IpP0.7 (Some figures in this article
+  are in colour only in the electronic version%
+  }
+  \verb{doi}
+  \verb 10.1088/0029-5515/50/10/105005
+  \endverb
+  \field{isbn}{0029-5515}
+  \field{issn}{0029-5515}
+  \field{number}{10}
+  \field{pages}{105005}
+  \field{title}{{I-mode: an H-mode energy confinement regime with L-mode
+  particle transport in Alcator C-Mod}}
+  \field{volume}{50}
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/nf10{\_}10{\_}105005.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{year}{2010}
+\endentry
+
+\entry{Marmar2015}{article}{}
+  \name{author}{51}{}{%
+    {{}%
+     {Marmar}{M.}%
+     {E.S.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baek}{B.}%
+     {S.G.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barnard}{B.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bonoli}{B.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brunner}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Candy}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canik}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Churchill}{C.}%
+     {R.M.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cziegler}{C.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dekow}{D.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Delgado-Aparicio}{D.-A.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Diallo}{D.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Edlund}{E.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ennever}{E.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Faust}{F.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fiore}{F.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gao}{G.}%
+     {Chi}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Golfinopoulos}{G.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenwald}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hartwig}{H.}%
+     {Z.S.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holland}{H.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hubbard}{H.}%
+     {A.E.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hughes}{H.}%
+     {J.W.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hutchinson}{H.}%
+     {I.H.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Irby}{I.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LaBombard}{L.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Yijun}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lipschultz}{L.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loarte}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mumgaard}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parker}{P.}%
+     {R.R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porkolab}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinke}{R.}%
+     {M.L.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rice}{R.}%
+     {J.E.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scott}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shiraiwa}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Snyder}{S.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sorbom}{S.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Terry}{T.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Terry}{T.}%
+     {J.L.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Theiler}{T.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vieira}{V.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walk}{W.}%
+     {J.R.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wallace}{W.}%
+     {G.M.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Whyte}{W.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolfe}{W.}%
+     {S.M.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {G.M.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wukitch}{W.}%
+     {S.J.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xu}{X.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ME+1}
+  \strng{fullhash}{MEBSBHBPBDCJCJCRCIDGDALDAEEEPFIFCGCGTGMHZHCHAHJHIIJLBLYLBLAMRPRPMRMRJSSSSSPSBTDTJTCVRWJWGWAWDWSWGWJWSXP1}
+  \field{abstract}{%
+  This paper presents an overview of recent highlights from research on Alcator
+  C-Mod. Significant progress has been made across all research areas over the
+  last two years, with particular emphasis on divertor physics and power
+  handling, plasma–material interaction studies, edge localized
+  mode-suppressed pedestal dynamics, core transport and turbulence, and RF
+  heating and current drive utilizing ion cyclotron and lower hybrid tools.
+  Specific results of particular relevance to ITER include: inner wall SOL
+  transport studies that have led, together with results from other
+  experiments, to the change of the detailed shape of the inner wall in ITER;
+  runaway electron studies showing that the critical electric field required
+  for runaway generation is much higher than predicted from collisional theory;
+  core tungsten impurity transport studies reveal that tungsten accumulation is
+  naturally avoided in typical C-Mod conditions.%
+  }
+  \verb{doi}
+  \verb 10.1088/0029-5515/55/10/104020
+  \endverb
+  \field{issn}{0029-5515}
+  \field{number}{10}
+  \field{pages}{104020}
+  \field{title}{{Alcator C-Mod: research in support of ITER and steps beyond}}
+  \verb{url}
+  \verb http://iopscience.iop.org/0029-5515/55/10/104020/article/
+  \endverb
+  \field{volume}{55}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Marmar et al. - 2015 - Alcator C-Mod research in support of ITER and
+  \verb steps beyond.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{year}{2015}
 \endentry
 
 \lossort

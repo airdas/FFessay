@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: FFreview2.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: FFreview2Notes.bib
+Database file #2: BIB_FFreview.bib
+Repeated entry---line 461 of file BIB_FFreview.bib
+ : @article{Loarte2010
+ :                    ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in Loarte2010
+You've used 13 entries,
+            5847 wiz_defined-function locations,
+            1718 strings with 19094 characters,
+and the built_in function-call counts, 20612 in all, are:
+= -- 887
+> -- 898
+< -- 165
++ -- 268
+- -- 240
+* -- 3768
+:= -- 1747
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 53
+chr.to.int$ -- 13
+cite$ -- 16
+duplicate$ -- 1826
+empty$ -- 1424
+format.name$ -- 510
+if$ -- 4137
+int.to.chr$ -- 1
+int.to.str$ -- 21
+missing$ -- 233
+newline$ -- 91
+num.names$ -- 36
+pop$ -- 658
+preamble$ -- 1
+purify$ -- 65
+quote$ -- 0
+skip$ -- 619
+stack$ -- 0
+substring$ -- 320
+swap$ -- 2007
+text.length$ -- 120
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 263
+warning$ -- 1
+while$ -- 36
+width$ -- 0
+write$ -- 154
+(There was 1 error message)
