@@ -1,0 +1,934 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Wagner2007}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {F}{F}%
+     {Wagner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{H-mode}
+  \strng{namehash}{FW1}
+  \strng{fullhash}{FW1}
+  \verb{doi}
+  \verb 10.1088/0741-3335/49/12B/S01
+  \endverb
+  \field{isbn}{0741-3335}
+  \field{issn}{0741-3335}
+  \field{number}{12B}
+  \field{pages}{1\bibrangedash 33}
+  \field{title}{{A quarter-century of H-mode studies}}
+  \verb{url}
+  \verb stacks.iop.org/PPCF/49/B1 Abstract
+  \endverb
+  \field{volume}{49}
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/ppcf7{\_}12B{\_}S01.pdf:pdf
+  \endverb
+  \field{journaltitle}{Plasma Physics and Controlled Fusion}
+  \field{year}{2007}
+\endentry
+
+\entry{Hill1997}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hill}{H.}%
+     {D.N.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{divertor plasma,energy deposition,particle and energy balance,sol
+  plasma,tokamak}
+  \strng{namehash}{HD1}
+  \strng{fullhash}{HD1}
+  \verb{doi}
+  \verb 10.1016/S0022-3115(97)80039-6
+  \endverb
+  \field{isbn}{0022-3115}
+  \field{issn}{00223115}
+  \field{pages}{182\bibrangedash 198}
+  \field{title}{{A review of ELMs in divertor tokamaks}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0022311597800396
+  \endverb
+  \field{volume}{241-243}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Hill - 1997 - A review of ELMs in divertor tokamaks.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of Nuclear Materials}
+  \field{year}{1997}
+\endentry
+
+\entry{Connor2008}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Connor}{C.}%
+     {J.~W.}{J.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirk}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilson}{W.}%
+     {H.~R.}{H.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Benkadda}{B.}%
+     {Sadruddin}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJW+1}
+  \strng{fullhash}{CJWKAWHRBS1}
+  \verb{doi}
+  \verb 10.1063/1.2939030
+  \endverb
+  \field{issn}{0094243X}
+  \field{pages}{174\bibrangedash 190}
+  \field{title}{{Edge Localised Modes (ELMs): Experiments and Theory}}
+  \verb{url}
+  \verb http://link.aip.org/link/APCPCS/v1013/i1/p174/s1{\&}Agg=doi
+  \endverb
+  \field{volume}{1013}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Connor et al. - 2008 - Edge Localised Modes (ELMs) Experiments and Th
+  \verb eory.pdf:pdf
+  \endverb
+  \field{journaltitle}{AIP Conference Proceedings}
+  \field{annotation}{%
+  figures to use%
+  }
+  \field{year}{2008}
+\endentry
+
+\entry{Leonard1999}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Leonard}{L.}%
+     {A.~W.}{A.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herrmann}{H.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Itami}{I.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lingertat}{L.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loarte}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osborne}{O.}%
+     {T.~H.}{T.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suttrop}{S.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Divertor erosion,ELM,ELMs ITER,ITER,P05,P06}
+  \strng{namehash}{LAW+1}
+  \strng{fullhash}{LAWHAIKLJLAOTHSW1}
+  \verb{doi}
+  \verb 10.1016/S0022-3115(98)00522-4
+  \endverb
+  \field{issn}{00223115}
+  \field{pages}{109\bibrangedash 117}
+  \field{title}{{Impact of ELMs on the ITER divertor}}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0022311598005224
+  \endverb
+  \field{volume}{266}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Leonard et al. - 1999 - The impact of ELMs on the ITER divertor.pdf:p
+  \verb df
+  \endverb
+  \field{journaltitle}{Journal of Nuclear Materials}
+  \field{annotation}{%
+  cited in the citation on p3 of Loarte2014a%
+  }
+  \field{year}{1999}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Loarte2002}{article}{}
+  \name{author}{16}{}{%
+    {{}%
+     {Loarte}{L.}%
+     {a}{a}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Becoulet}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saibene}{S.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sartori}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {D~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eich}{E.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herrmann}{H.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laux}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Suttrop}{S.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alper}{A.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lomas}{L.}%
+     {P~J}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matthews}{M.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jachmich}{J.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ongena}{O.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Innocente}{I.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Collaborators}{C.}%
+     {Efda-Jet~Workprogramme}{E.-J.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{La+1}
+  \strng{fullhash}{LaBMSGSRCDJETHALMSWABLPJMGJSOJIPCEJW1}
+  \verb{doi}
+  \verb 10.1088/0741-3335/44/9/303
+  \endverb
+  \field{isbn}{0741-3335}
+  \field{issn}{0741-3335}
+  \field{number}{9}
+  \field{pages}{1815\bibrangedash 1844}
+  \field{title}{{Characteristics and scaling of energy and particle losses
+  during Type I ELMs in JET H-modes}}
+  \field{volume}{44}
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/p20903.pdf:pdf
+  \endverb
+  \field{journaltitle}{Plasma Physics and Controlled Fusion}
+  \field{year}{2002}
+\endentry
+
+\entry{Eich2013}{article}{}
+  \name{author}{18}{}{%
+    {{}%
+     {Eich}{E.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leonard}{L.}%
+     {A.W.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pitts}{P.}%
+     {R.a.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fundamenski}{F.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goldston}{G.}%
+     {R.J.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gray}{G.}%
+     {T.K.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herrmann}{H.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirk}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kallenbach}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kardaun}{K.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kukushkin}{K.}%
+     {A.S.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LaBombard}{L.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maingi}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Makowski}{M.}%
+     {M.a.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scarabosio}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sieglin}{S.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Terry}{T.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thornton}{T.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ET+1}
+  \strng{fullhash}{ETLAPRFWGRGTHAKAKAKOKALBMRMMSASBTJTA1}
+  \verb{doi}
+  \verb 10.1088/0029-5515/53/9/093031
+  \endverb
+  \field{issn}{0029-5515}
+  \field{number}{9}
+  \field{pages}{093031}
+  \field{title}{{Scaling of the tokamak near the scrape-off layer H-mode power
+  width and implications for ITER}}
+  \verb{url}
+  \verb http://iopscience.iop.org/0029-5515/53/9/093031/article/
+  \endverb
+  \field{volume}{53}
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/nf13{\_}9{\_}093031.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{year}{2013}
+\endentry
+
+\entry{KirkFF}{proceedings}{}
+  \field{note}{Kirk, A}
+  \field{series}{Fusion Frontiers Lectures}
+  \field{title}{Controlling plasma eruptions in tokamaks}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Loarte2014a}{article}{}
+  \name{author}{33}{}{%
+    {{}%
+     {Loarte}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huijsmans}{H.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Futatani}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baylor}{B.}%
+     {L.R.~R.}{L.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans}{E.}%
+     {T.E.~E.}{T.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Orlov}{O.}%
+     {D.~M.}{D.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmitz}{S.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Becoulet}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cahyna}{C.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gribov}{G.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kavin}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Naik}{N.}%
+     {a.~Sashala}{a.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {D.J.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Casper}{C.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Daly}{D.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frerichs}{F.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kischner}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laengner}{L.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lisgo}{L.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pitts}{P.}%
+     {R.a.~a.}{R.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saibene}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wingen}{W.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sashala Naik}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {D.J.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Casper}{C.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Daly}{D.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frerichs}{F.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kischner}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laengner}{L.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lisgo}{L.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pitts}{P.}%
+     {R.a.~a.}{R.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saibene}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wingen}{W.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LA+1}
+  \strng{fullhash}{LAHGFSBLRETEODMSOBMCPGYKANaSCDJCTDEFHKALRLSPRaSGWASACDJCTDEFHKALRLSPRaSGWA1}
+  \verb{doi}
+  \verb 10.1088/0029-5515/54/3/033007
+  \endverb
+  \field{issn}{0029-5515}
+  \field{number}{3}
+  \field{pages}{033007}
+  \field{title}{{Progress on the application of ELM control schemes to ITER
+  scenarios from the non-active phase to DT operation}}
+  \verb{url}
+  \verb http://iopscience.iop.org/0029-5515/54/3/033007/pdf/0029-5515
+  \endverb
+  \field{volume}{54}
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/nf{\_}54{\_}3{\_}033007.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{year}{2014}
+\endentry
+
+\entry{Federici2003}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Federici}{F.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Loarte}{L.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strohmayer}{S.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FGLASG1}
+  \strng{fullhash}{FGLASG1}
+  \verb{doi}
+  \verb 10.1088/0741-3335/45/9/301
+  \endverb
+  \field{issn}{0741-3335}
+  \field{number}{9}
+  \field{pages}{1523\bibrangedash 1547}
+  \field{title}{{Assessment of erosion of the ITER divertor targets during type
+  I ELMs}}
+  \field{volume}{45}
+  \verb{file}
+  \verb :home/joa509/Fusion{\_}Frontiers/Papers/p30901.pdf:pdf
+  \endverb
+  \field{journaltitle}{Plasma Physics and Controlled Fusion}
+  \field{year}{2003}
+\endentry
+
+\entry{Evans2015}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Evans}{E.}%
+     {T.~E.}{T.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IOP Publishing}%
+  }
+  \strng{namehash}{ETE1}
+  \strng{fullhash}{ETE1}
+  \verb{doi}
+  \verb 10.1088/0741-3335/57/12/123001
+  \endverb
+  \field{issn}{0741-3335}
+  \field{number}{12}
+  \field{pages}{123001}
+  \field{title}{{Resonant magnetic perturbations of edge-plasmas in toroidal
+  confinement devices}}
+  \verb{url}
+  \verb http://stacks.iop.org/0741-3335/57/i=12/a=123001?key=crossref.700af3dd7
+  \verb c7e5bd71b91c4fab061f29a
+  \endverb
+  \field{volume}{57}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Evans - 2015 - Resonant magnetic perturbations of edge-plasmas in tor
+  \verb oidal confinement devices.pdf:pdf
+  \endverb
+  \field{journaltitle}{Plasma Physics and Controlled Fusion}
+  \field{year}{2015}
+\endentry
+
+\entry{Mordijck2011}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Mordijck}{M.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moyer}{M.}%
+     {R~a}{R.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirk}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tamain}{T.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Temple}{T.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKee}{M.}%
+     {G~R}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nardon}{N.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MS+1}
+  \strng{fullhash}{MSMRaKATPTDMGRNE1}
+  \verb{doi}
+  \verb 10.1088/0741-3335/53/12/122001
+  \endverb
+  \field{isbn}{0741-3335}
+  \field{issn}{0741-3335}
+  \field{number}{12}
+  \field{pages}{122001}
+  \field{title}{{Comparison of resonant magnetic perturbation-induced particle
+  transport changes in H-mode (DIII-D) and L-mode (MAST)}}
+  \verb{url}
+  \verb http://stacks.iop.org/0741-3335/53/i=12/a=122001?key=crossref.2125980fc
+  \verb 7a965ca72b43260c9693a1b
+  \endverb
+  \field{volume}{53}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Mordijck et al. - 2011 - Comparison of resonant magnetic perturbation
+  \verb -induced particle transport changes in H-mode (DIII-D) and L-mode (.pdf
+  \verb :pdf
+  \endverb
+  \field{journaltitle}{Plasma Physics and Controlled Fusion}
+  \field{annotation}{%
+  A Kirk slide 35 reference: ELM suppression in DIII-D%
+  }
+  \field{year}{2011}
+\endentry
+
+\entry{Evans2008}{article}{}
+  \name{author}{25}{}{%
+    {{}%
+     {Evans}{E.}%
+     {T~E}{T.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fenstermacher}{F.}%
+     {M~E}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moyer}{M.}%
+     {R~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Osborne}{O.}%
+     {T~H}{T.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Watkins}{W.}%
+     {J~G}{J.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gohil}{G.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joseph}{J.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schaffer}{S.}%
+     {M~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baylor}{B.}%
+     {L~R}{L.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Becoulet}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boedo}{B.}%
+     {J~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burrell}{B.}%
+     {K~H}{K.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Degrassie}{D.}%
+     {J~S}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Finken}{F.}%
+     {K~H}{K.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jernigan}{J.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jakubowski}{J.}%
+     {M~W}{M.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lasnier}{L.}%
+     {C~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lelmen}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leonard}{L.}%
+     {A~W}{A.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lonnroth}{L.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nardon}{N.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parail}{P.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmitz}{S.}%
+     {O}{O}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Unterberg}{U.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {West}{W.}%
+     {W~P}{W.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{D TOKAMAK,ENERGY,ERROR-FIELD,MAGNETIC PERTURBATIONS,PARTICLE,TRANSPORT}
+  \strng{namehash}{ETE+1}
+  \strng{fullhash}{ETEFMEMRAOTHWJGGPJISMJBLRBMBJABKHDJSFKHJTJMWLCJLMLAWLJNEPVSOUBWWP1}
+  \verb{doi}
+  \verb 10.1088/0029-5515/48/2/024002
+  \endverb
+  \field{isbn}{0029-5515}
+  \field{issn}{0029-5515}
+  \field{number}{2}
+  \field{pages}{10}
+  \field{title}{{RMP ELM suppression in DIII-D plasmas with ITER similar shapes
+  and collisionalities}}
+  \verb{url}
+  \verb http://iopscience.iop.org/0029-5515/48/2/024002/pdf/0029-5515{\_}48{\_}
+  \verb 2{\_}024002.pdf
+  \endverb
+  \field{volume}{48}
+  \verb{file}
+  \verb :home/joa509/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloade
+  \verb d/Evans et al. - 2008 - RMP ELM suppression in DIII-D plasmas with ITER
+  \verb  similar shapes and collisionalities.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nuclear Fusion}
+  \field{year}{2008}
+\endentry
+
+\entry{Loarte2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Loarte}{L.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campbell}{C.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gribov}{G.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pitts}{P.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LA+2}
+  \strng{fullhash}{LACDGYPR1}
+  \field{number}{October}
+  \field{pages}{1\bibrangedash 637}
+  \field{title}{{23rd IAEA Fusion Energy Conference, 11–16 October 2010,
+  Daejeon, Republic of Korea, Book of Abstracts}}
+  \verb{url}
+  \verb https://inis.iaea.org/search/search.aspx?orig{\{}{\_}{\}}q=RN:43043504
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
