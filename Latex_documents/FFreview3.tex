@@ -140,9 +140,9 @@ There is a limit on the minimum ELM frequency necessary for ITER's operation due
 \section{Current methods for mitigation}\label{sec:Mitigation}
 
 \subsection{Resonant Magnetic Perturbations (RMPs)}\label{ssec:RMP}
-RMP ELM control seeks to influence the edge plasma so as to hold it below the PB stability limit throughout the discharge. If the edge pressure can be maintained just under this limit type I ELMs will not be triggered; this is very beneficial to the overall fusion performance of the machine as the core plasma will a sufficiently high pressure. If the transport rate in the edge transport barrier (ETB) can be augmented through external influence the plasma pressure can be made to level off below the critical PB stability boundary.
+RMP ELM control seeks to influence the edge plasma so as to hold it below the PB stability limit throughout the discharge. If the edge pressure can be maintained just under this limit type I ELMs will not be triggered; this is very beneficial to the overall fusion performance of the machine as the core plasma will a sufficiently high pressure. If the transport rate in the edge transport barrier (ETB) can be augmented through external influence the plasma pressure can be made to level off below the critical PB stability boundary. Plasma density and confinement are reduced by around $10\%$ by the use of RMP coils \cite{Lang2013} 
 
-ITER's tungsten divertor introduces further requirements on ELM control\cite{KirkFF} W build up in the plasma core could cause catastrophic energy losses; hence, additional methods to provide enhanced transport will need to be implemented, else low power ELMs must be allowed to occur to provide this enhancement.
+ITER's tungsten divertor introduces further requirements on ELM control\cite{KirkFF} W build up in the plasma core could cause catastrophic energy losses; hence, additional methods to provide enhanced transport will need to be implemented, else low power ELMs must be allowed to occur to provide this enhancement. ELMs, however, are the main source of divertor impurities in the main plasma, so their suppression could itself be sufficient to bring core levels of W below the required threshold.
 
 Magnitude of field applied by RMP coils is $10^{-4} \squiggle 10^{-3}$ T\cite{Evans2015}. These relatively tiny perturbations disrupt the toroidal symmetry of the magnetic field, making it 3D rather than 2D. Field line paths become direction specific (clockwise path is different from the anti-clockwise path) and the edge flux surfaces are no longer smooth but instead exhibit lobe structures, especially in the X-point region. Visualisation of these lobes can be seen in figure~\ref{fig:lobes}, showing very good overlap between the simulated and experimental data.
 
@@ -180,6 +180,8 @@ ITER will utilise at least two major ELM control systems, RMP coils and pellet i
 \centering
 \caption{RMP (ELM control) and vertical stability (VS) coil layout on one ninth of the ITER outboard vessel wall \cite{Lang2013}.}\label{fig:ITERcoils}
 \end{figure}
+
+In order to counteract the uneven divertor heat loads due to the flux surface lobes produced by the RMP coils, the perturbations will be rotated toroidally above 1 Hz \cite{LoarteTR2013} so as to smear out the deleterious effects over the whole divertor. Alternatively the toroidal mode number of the perturbation could be cycled. \textbf{would quite like a visual representation of this smoothing} This cycling could damage the RMP coils in the long term \cite{KirkFF}, which is very undesirable as they are within the first vacuum wall and so cannot be replaced. 
 
 Vertical stability coils may be implemented as a fall back ELM control method.\cite{Loarte2014a}
 
