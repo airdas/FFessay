@@ -144,10 +144,18 @@ RMP ELM control seeks to influence the edge plasma so as to hold it below the PB
 
 ITER's tungsten divertor introduces further requirements on ELM control\cite{KirkFF} W build up in the plasma core could cause catastrophic energy losses; hence, additional methods to provide enhanced transport will need to be implemented, else low power ELMs must be allowed to occur to provide this enhancement.
 
-Magnitude of field applied by RMP coils is $10^{-4} \squiggle 10^{-3}$ T\cite{Evans2015}
+Magnitude of field applied by RMP coils is $10^{-4} \squiggle 10^{-3}$ T\cite{Evans2015}. These relatively tiny perturbations disrupt the toroidal symmetry of the magnetic field, making it 3D rather than 2D. Field line paths become direction specific (clockwise path is different from the anti-clockwise path) and the edge flux surfaces are no longer smooth but instead exhibit lobe structures, especially in the X-point region. Visualisation of these lobes can be seen in figure~\ref{fig:lobes}, showing very good overlap between the simulated and experimental data.
+
+\begin{figure}
+\includegraphics[scale=0.5]{Figures/lobes.png}
+\centering
+\caption{Camera image of $n=6$ X-point lobes on MAST (left), ERGOS simulation for comparison (right) \cite{Harrison2014}.}\label{fig:lobes}
+\end{figure}
+
+The X-point lobe patterns develop more complexity and size with increasing perturbation mode number \cite{Harrison2014} and pose a danger for the divertor plates: now the heat flux is 3D, their erosion will not be homogeneous, causing roughening of the surface which will further enhance the heat load disparity.
 
 \subsection{Pellet Injection}\label{ssec:PInjection}
-ELM magnitude scales as $f_{ELM}.\Delta W_{ELM}~\squiggle$ constant\cite{Loarte2002,Leonard1999,KirkFF}, so influencing factors which decrease the time between ELMs will consequently decrease their power. Sufficiently increasing $f_{ELM}$ has the benefit of ensuring that no one single ELM will cause critical damage to the PFCs or the divertor; however, high repetition rate thermal cycling of of these first layer components may have severe long term impacts.
+ELM magnitude scales as $f_{ELM}.\Delta W_{ELM}~\squiggle$ constant\cite{Loarte2002,Leonard1999,KirkFF}, so influencing factors which decrease the time between ELMs will consequently decrease their power. Sufficiently increasing $f_{ELM}$ has the benefit of ensuring that no one single ELM will cause critical damage to the PFCs or the divertor; however, high repetition rate thermal cycling of of these first layer components may have severe long term impacts. Much research is under way to ascertain more precisely the thermal cycling tolerances of these components. Large networks of cracks can form in tungsten tiles after repeated exposure to type I ELM-like heat fluxes \cite{Linke2011}, which could be extremely detrimental to the extended operation of ITER.
 
 As discussed in section~\ref{sec:Problems}, the ELM deposition area on the divertor scales with ELM energy. In ITER's testing phase the full extent of this relationship must be established in order to gauge how high it is beneficial to raise $f_{ELM}$ by pellet pacing (or another triggering method). If said relationship was found to be very firm it will make these triggering methods redundant for ELM damage reduction \cite{Lang2013}.
 
@@ -164,8 +172,14 @@ DIII-D experiment showing complete ELM suppression (DIII-D geometry is similar t
 References on Slide 45 of A. Kirk's talk about ELM (I) suppression at low collisionality. \textbf{***What exactly is collisionality, how is it measured and how is it externally influenced?***} Lowering collisionality, $\nu^{*}$, causes the pressure cycle to retreat from the unstable peeling-ballooning region and thus leads to complete type I ELM suppression.\cite{Evans2008}
 
 
-\subsection{How they may work on ITER}\label{ssec:onITER}
-ITER will utilise at least two major ELM control systems, RMP coils and pellet injectors.\cite{Loarte2010}
+\subsection{How they will work on ITER}\label{ssec:onITER}
+ITER will utilise at least two major ELM control systems, RMP coils and pellet injectors \cite{Loarte2010}. Figure~\ref{fig:ITERcoils} shows the planned positions of the ELM control coils in ITER.
+
+\begin{figure}
+\includegraphics[scale=0.5]{Figures/ITERcoils.png}
+\centering
+\caption{RMP (ELM control) and vertical stability (VS) coil layout on one ninth of the ITER outboard vessel wall \cite{Lang2013}.}\label{fig:ITERcoils}
+\end{figure}
 
 Vertical stability coils may be implemented as a fall back ELM control method.\cite{Loarte2014a}
 
