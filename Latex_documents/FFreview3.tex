@@ -39,7 +39,7 @@
 % Document
 \begin{document}
 
-\title{Current understanding of tokamak plasma eruptions and the consequences for ITER.}
+\title{Current understanding of tokamak plasma eruption control and the consequences for ITER}
 \author{Joe Allen, JOA509}
 %\date{\today}
 \maketitle
@@ -60,9 +60,9 @@ In H-mode, type I ELMs are initiated when the pressure increases such that it re
 \begin{tabular}{lll}
 \hline
 \textbf{$p_{ped}$}   & \textbf{$J_{ped}$} & \textbf{Mode} \\ \hline
-   High              &        Low         &      Ballooning        \\
-   Low               &        High        &      Peeling           \\
-   High              &        High        &      Peeling-ballooning
+   High      &    Low     &  Ballooning \\
+   Low       &    High    &  Peeling    \\
+   High      &    High    &  Peeling-ballooning
 \end{tabular}
 \end{table}
 
@@ -77,7 +77,7 @@ Increasing collisionality reduces edge current densities
 \begin{figure}
 \includegraphics[scale=0.3]{Figures/PBboundary.png}
 \centering
-\caption{H-mode pressure cycle up to the peeling-ballooning limit which triggers ELMs.\cite{KirkFF}}\label{fig:PBboundary}
+\caption{H-mode pressure cycle up to the peeling-ballooning limit which triggers ELMs \cite{KirkFF}.}\label{fig:PBboundary}
 \end{figure}
 
 Level of plasma shaping has a drastic effect on the size of the stable region below the PB limit, which can be seen in figure~\ref{fig:PBshaping}, an example being increased triangularity extends the stable region to encompass higher edge pressure and current values \cite{Lang2013}.
@@ -85,12 +85,18 @@ Level of plasma shaping has a drastic effect on the size of the stable region be
 \begin{figure}
 \includegraphics[scale=0.6]{Figures/PBshaping.png}
 \centering
-\caption{Differing peeling-ballooning stability boundaries for varying degrees of plasma shaping \cite{Snyder2004}}\label{fig:PBshaping}
+\caption{Differing peeling-ballooning stability boundaries for varying degrees of plasma shaping \cite{Snyder2004}.}\label{fig:PBshaping}
+\end{figure}
+
+Current understanding is that ELMs of different magnitudes are produced depending on which stability boundary is infringed, visualised in figure~\ref{fig:ELMcycles}. The possibility of no ELMs being produced in case (ii) is a result of the fact that the enhanced transport due to the breach reduces the edge pressure gradient which prevents an eruption \cite{Wilson2006}.
+
+\begin{figure}
+\includegraphics[scale=0.6]{Figures/ELMcycles.png}
+\centering
+\caption{(i) Qualitative ELM cycle pathways: peeling-ballooning limit breached causes a large type I ELM; (ii) ballooning limit breached, produces either small ELMs or none at all; (iii) peeling limit breached causes a small ELM \cite{Wilson2006}.}\label{fig:ELMcycles}
 \end{figure}
 
 Despite the many negative effects of ELMs on reactor lifetime, they do drive some positive processes such as enhanced transport which reduces impurity fraction in the bulk plasma. As a result of this, a controlled amount of low power ELMs may be desired to keep the core clean and give the ability to control the plasma density.\citep{Hill1997} The positive impact of this impurity removal is greater than the resulting drop in fusion performance due to loss of energy confinement.\cite{Connor2008}
-
-
 
 
 
@@ -117,11 +123,19 @@ Several tokamaks have corroborated the scaling of ELM frequency given in equatio
 f_{ELM}\Delta W_{ELM} = 0.2-0.4 P_{SOL}
 \end{equation}
 
+Edge collisionality has an important role in the effectiveness of ELM control, when using RMP coils it can be the deciding factor between ELM suppression and mitigation \cite{Kirk2013}. Suppression is complete removal of ELMs, whereas mitigation is when their frequency is increased (causing a corresponding decrease in power due to equation~\ref{eq:fELM}.
+
 
 \section{Problems for ITER}\label{sec:Problems}
 ELMs R (mostly) Bad \cite{Connor2008}
 
-A limit has been set on the maximum power fluxes allowed onto the PFCs, specifically half that which would melt these components.\cite{Loarte2014a} Natural ELM frequency for ITER will be about 1 Hz and the resultant power load on the plasma facing components (PFCs) will cause them and the tungsten (W) divertor plates to melt\cite{Federici2003}. ITER will not be able to stand even one ELM of this magnitude and so it must operate in a completely ELM-mitigated regime\cite{KirkFF}.
+A limit has been set on the maximum power fluxes allowed onto the PFCs, specifically half that which would melt these components.\cite{Loarte2014a} Natural ELM frequency for ITER will be about 1 Hz and the resultant power load on the plasma facing components (PFCs) will cause them and the tungsten (W) divertor plates to melt\cite{Federici2003}. ITER will not be able to stand even one ELM of this magnitude and so it must operate in a completely ELM-mitigated regime\cite{KirkFF}. Current research tokamaks are able to derive the parameters for ELM suppression and mitigation at regular operating power. ITER is simply too powerful and thus does not have this luxury.
+
+\begin{figure}
+\includegraphics[scale=0.6]{Figures/FreqEnhance.png}
+\centering
+\caption{The required ratio of mitigated to natural ELM frequency to safeguard the performance for both a single discharge, keeping W impurity levels sufficiently low, and for the long term of ITER \cite{Kirk2013}.}\label{fig:FreqEnhance}
+\end{figure}
 
 ITER will be able to tolerate ELM energies of under 1 MJ per eruption; given that a single ELM can release a small fraction of the entire plasma energy, estimated to be up to around $20\%$ of the pedestal plasma energy\cite{Loarte2003}. Thus, a natural type I ELM in ITER could release 20 MJ in 500 $\mu$s\cite{KirkFF}, which is an unfeasibly high heat flux for the device. ITER is designed to operate at $I_p = 15$ MA and $Q_{DT} = 10$; however, if it lacks the necessary ability to control ELMs the divertor and PFCs will start to degrade faster than desirable at plasma currents of $6-9$ MA.\cite{Lang2013} Extended operation in the designed scenario would then not be possible.
 
@@ -140,9 +154,13 @@ There is a limit on the minimum ELM frequency necessary for ITER's operation due
 \section{Current methods for mitigation}\label{sec:Mitigation}
 
 \subsection{Resonant Magnetic Perturbations (RMPs)}\label{ssec:RMP}
-RMP ELM control seeks to influence the edge plasma so as to hold it below the PB stability limit throughout the discharge. If the edge pressure can be maintained just under this limit type I ELMs will not be triggered; this is very beneficial to the overall fusion performance of the machine as the core plasma will a sufficiently high pressure. If the transport rate in the edge transport barrier (ETB) can be augmented through external influence the plasma pressure can be made to level off below the critical PB stability boundary. Plasma density and confinement are reduced by around $10\%$ by the use of RMP coils \cite{Lang2013} 
+RMP ELM control seeks to influence the edge plasma so as to hold it below the PB stability limit throughout the discharge. If the edge pressure can be maintained just under this limit type I ELMs will not be triggered; this is very beneficial to the overall fusion performance of the machine as the core plasma will a sufficiently high pressure. If the transport rate in the edge transport barrier (ETB) can be augmented through external influence the plasma pressure can be made to level off below the critical PB stability boundary. 
 
-ITER's tungsten divertor introduces further requirements on ELM control\cite{KirkFF} W build up in the plasma core could cause catastrophic energy losses; hence, additional methods to provide enhanced transport will need to be implemented, else low power ELMs must be allowed to occur to provide this enhancement. ELMs, however, are the main source of divertor impurities in the main plasma, so their suppression could itself be sufficient to bring core levels of W below the required threshold.
+Plasma density and confinement are reduced by around $10\%$ by the use of RMP coils \cite{Lang2013}; nevertheless, researchers using ASDEX Upgrade (AUG) saw a factor 6 reduction in core plasma energy loss in ELM-mitigated shots with $n=2$ toroidal edge perturbations \cite{Suttrop2011}. Again on AUG, pellet injection was used to combat the density reduction in ELM mitigated regime and also to bring the edge density above the threshold level necessary to reach said ELM mitigated regime \cite{Lang2012}. There appears to exist a minimum edge plasma density below which ELM mitigation will not occur \cite{Suttrop2011}, hence pellet injection will need to be used in tandem with RMP control in ITER in order to keep the edge density above this threshold throughout the duration of a shot.
+
+DIII-D has been used to investigate ELM suppression in plasmas with similar shapes and collisionalities to ITER \cite{Evans2008}, with suppression at collisionalities $\nu_c^c < 0.35$ but only mitigation above that. Experiments on MAST\cite{Kirk2013a} using $n=4 $ and $6$ have achieved mitigation, increasing $f_{ELM}$ eightfold. KSTAR has seen, with $n=1$, complete suppression of ELMs and also two distinct stages after RMP activation. First the plasma energy, toroidal rotation and density decrease by a small factor while the ELMs are being suppressed. Secondly, when ELMs are fully suppressed, these quantities plateau \cite{Kwak2013}. At AUG, similar discoveries have been made using $n=2$ \cite{Fischer2012,Suttrop2011}. 
+
+ITER's tungsten divertor introduces further requirements on ELM control\cite{KirkFF} W build up in the plasma core could cause catastrophic energy losses; hence, additional methods to provide enhanced transport will need to be implemented, else low power ELMs must be allowed to occur to provide this enhancement. ELMs, however, are the main source of divertor impurities in the main plasma, so their suppression could itself be sufficient to bring core levels of W below the required threshold. Experiments on AUG found that in a type I ELM-mitigated regime the fraction of W in the plasma is lower by a factor of 2 compared to in unmitigated regimes \cite{Suttrop2011}.
 
 Magnitude of field applied by RMP coils is $10^{-4} \squiggle 10^{-3}$ T\cite{Evans2015}. These relatively tiny perturbations disrupt the toroidal symmetry of the magnetic field, making it 3D rather than 2D. Field line paths become direction specific (clockwise path is different from the anti-clockwise path) and the edge flux surfaces are no longer smooth but instead exhibit lobe structures, especially in the X-point region. Visualisation of these lobes can be seen in figure~\ref{fig:lobes}, showing very good overlap between the simulated and experimental data.
 
@@ -188,7 +206,7 @@ Vertical stability coils may be implemented as a fall back ELM control method.\c
 \section{Necessary future work}\label{sec:Future}
 Before the first plasma run in ITER, it must be able to operate in a regime with strictly controlled ELMs in order to ensure a reasonable lifetime of the machine. 
 
-Quiescent H-mode (QH-mode) retains the benefits of the central pedestal without the cyclic energy losses by ELMs, which are damaging to both fusion performance and the device's components. It has been attained on several tokamaks; namely DIII-D, JET and Asdex-Upgrade \cite{Burrell2002, Suttrop2005}, and is a potentially promising operating regime for ITER if enough prior research and solid extrapolation can be performed.
+Quiescent H-mode (QH-mode) retains the benefits of the central pedestal without the cyclic energy losses by ELMs, which are damaging to both fusion performance and the device's components. It has been attained on several tokamaks; namely DIII-D, JET and ASDEX-U \cite{Burrell2002, Suttrop2005}, and is a potentially promising operating regime for ITER if enough prior research and solid extrapolation can be performed.
 
 
 \subsection{I-Mode}
