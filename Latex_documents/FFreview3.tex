@@ -151,12 +151,14 @@ The maximum allowed energy flux per ELM of $0.5$ MJ m$^{-2}$ can be translated i
 
 There is a limit on the minimum ELM frequency necessary for ITER's operation due to the need to remove impurities (page5/6)\cite{Loarte2014a}, unless other methods of enhancing transport can be utilised.
 
-\section{Current methods for mitigation}\label{sec:Mitigation}
+\section{Current methods for ELM control}\label{sec:Control}
 
 \subsection{Resonant Magnetic Perturbations (RMPs)}\label{ssec:RMP}
 RMP ELM control seeks to influence the edge plasma so as to hold it below the PB stability limit throughout the discharge. If the edge pressure can be maintained just under this limit type I ELMs will not be triggered; this is very beneficial to the overall fusion performance of the machine as the core plasma will a sufficiently high pressure. If the transport rate in the edge transport barrier (ETB) can be augmented through external influence the plasma pressure can be made to level off below the critical PB stability boundary. 
 
 Plasma density and confinement are reduced by around $10\%$ by the use of RMP coils \cite{Lang2013}; nevertheless, researchers using ASDEX Upgrade (AUG) saw a factor 6 reduction in core plasma energy loss in ELM-mitigated shots with $n_{RMP}=2$ toroidal edge perturbations \cite{Suttrop2011}. Again on AUG, pellet injection was used to combat the density reduction in ELM mitigated regime and also to bring the edge density above the threshold level necessary to reach said ELM mitigated regime \cite{Lang2012}. There appears to exist a minimum edge plasma density below which ELM mitigation will not occur \cite{Suttrop2011}, hence pellet injection will need to be used in tandem with RMP control in ITER in order to keep the edge density above this threshold throughout the duration of a shot.
+
+A mechanism for 
 
 DIII-D has been used to investigate ELM suppression in plasmas with similar shapes and collisionalities to ITER \cite{Evans2008,Lanctot2013}, with suppression at collisionalities $\nu_c^* < 0.35$ but only mitigation above that. Experiments on MAST\cite{Kirk2013a} using $n_{RMP}=4 $ and $6$ have achieved mitigation, increasing $f_{ELM}$ eightfold. KSTAR has seen, with $n_{RMP}=1$, complete suppression of ELMs and also two distinct stages after RMP activation. First the plasma energy, toroidal rotation and density decrease by a small factor while the ELMs are being suppressed. Secondly, when ELMs are fully suppressed, these quantities plateau \cite{Kwak2013}. At AUG, similar discoveries have been made using $n_{RMP}=2$ \cite{Fischer2012,Suttrop2011} and, perhaps most importantly, strong mitigation was observed on JET under operation with an ITER-like wall \cite{Liang2013}. 
 
@@ -190,7 +192,7 @@ DIII-D experiment showing complete ELM suppression (DIII-D geometry is similar t
 References on Slide 45 of A. Kirk's talk about ELM (I) suppression at low collisionality. \textbf{***What exactly is collisionality, how is it measured and how is it externally influenced?***} Lowering collisionality, $\nu^{*}$, causes the pressure cycle to retreat from the unstable peeling-ballooning region and thus leads to complete type I ELM suppression.\cite{Evans2008}
 
 
-\subsection{How they will work on ITER}\label{ssec:onITER}
+\subsection{How these methods will work on ITER}\label{ssec:onITER}
 ITER will utilise at least two major ELM control systems, RMP coils and pellet injectors \cite{Loarte2010}. Figure~\ref{fig:ITERcoils} shows the planned positions of the ELM control coils in ITER.
 
 \begin{figure}
@@ -201,7 +203,17 @@ ITER will utilise at least two major ELM control systems, RMP coils and pellet i
 
 In order to counteract the uneven divertor heat loads due to the flux surface lobes produced by the RMP coils, the perturbations will be rotated toroidally above 1 Hz \cite{LoarteTR2013} so as to smear out the deleterious effects over the whole divertor. Alternatively the toroidal mode number of the perturbation could be cycled. Different edge perturbations investigated on MAST, $n_{RMP}=2,3,4$ and $6$, found that the footprint at the divertor changed for each value of $n_{RMP}$ \cite{Chapman2014}. The problem with this partial solution is that cycling could damage the RMP coils in the long term \cite{KirkFF}. This is very undesirable as they are within the first vacuum wall and so cannot be replaced. 
 
-Currently, ITER is expected to use $n_{RMP} = 3$ and $4$ \cite{Chapman2014}. A decision made after the success on DIII-D of complete suppression using $n_{RMP}=3$ in 2008 \cite{Evans2008, Fenstermacher2008}, the understanding of which was more recently advanced by Wade et al. \cite{Wade2015}. The group found that it is the alignment of the $n=3$ rational surface with zero perpendicular electron velocity ($\omega_{\perp e} = 0$) and the pedestal peak that is critical in achieving suppression. 
+Currently, ITER is expected to use $n_{RMP} = 3$ and $4$ \cite{Chapman2014}. A decision made after the success on DIII-D of complete suppression, in similar conditions to the ITER baseline scenario, using $n_{RMP}=3$ in 2008 \cite{Evans2008, Fenstermacher2008}. The understanding of this suppression was more recently advanced by Wade et al. \cite{Wade2015}. The group found that it is the alignment of the $n=3$ rational surface with zero perpendicular electron velocity ($\omega_{\perp e} = 0$) and the pedestal peak that is critical in achieving suppression. Regarding the requirement $\omega_{\perp e} =0$, it was found necessary to apply neutral beam injection (NBI) with the plasma rotation, as anti-rotation application does not produce a $\omega_{\perp e} = 0$ region, preventing ELM suppression altogether \cite{Wade2015}.
+
+Snyder \textit{et al.} have proposed a mechanism for RMP induced suppression \cite{Snyder2012}, in which a stochastic \footnote{having a random probability distribution} region or layer of resonant magnetic islands form due to the RMP penetration of the edge plasma. This enhances the rate of edge transport which ensures the edge pressure and current density remain below the peeling-ballooning boundary.
+
+Edge safety factor, $q_{95}$ - safety factor at 95\% poloidal flux, imposes strict boundaries on suppression on DIII-D. ELM suppression is only seen for $3.32 < q_{95} < 3.67$ \cite{Fenstermacher2008}, which poses issues as the expected value is around $q_{95} = 3$ in the default ITER scenario \cite{Gormezano2007}. This "q-window" in which suppression occurs is less wide for ITER similar shaped (ISS) plasmas than for plasma shapes with lower triangularity \cite{Evans2008}. 
+
+The explanation\cite{Snyder2012} of RMP suppression also provides potential answer for the existance of these "q-windows".
+
+Plasma response to RMP activation is discussed in \cite{Waelbroeck2009}.
+
+
 
 Vertical stability coils may be implemented as a fall back ELM control method \cite{Loarte2014a}. VS coils were already included into the design, just not initially for ELM triggering.
 
