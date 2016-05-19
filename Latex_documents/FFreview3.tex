@@ -48,9 +48,9 @@
 Here will lie the abstract
 
 \section{Background}\label{sec:Bg}
-Since their experimental observation over thirty years ago\cite{Keilhacker1984}, edge localised modes (ELMs) have attracted a large amount of research interest. Toroidal magnetic field devices looking to maximise power production must operate in the high confinement regime (H-mode), in which the central plasma density profile is raised up on a pedestal, providing enhanced confinement.\cite{Wagner2007} This elevation is caused by a steep pressure gradient in the separatrix (the boundary between open and closed field lines at the edge of the plasma). Due to the unstable nature of this gradient, ELMs periodically disrupt the edge plasma, causing energy and particle losses; ELMs are a type of magnetohydrodynamic (MHD) instability.\cite{Zohm1996}
+Since their experimental observation over thirty years ago \cite{Keilhacker1984}, edge localised modes (ELMs) have attracted a large amount of research interest. Toroidal magnetic field devices looking to maximise power production must operate in the high confinement regime (H-mode), in which the central plasma density profile is raised up on a pedestal, providing enhanced confinement \cite{Wagner2007}. This elevation is caused by a steep pressure gradient in the separatrix (the boundary between open and closed field lines at the edge of the plasma). Due to the unstable nature of this gradient, ELMs periodically disrupt the edge plasma, causing energy and particle losses; ELMs are a type of magnetohydrodynamic (MHD) instability \cite{Zohm1996}.
 
-In H-mode, type I ELMs are initiated when the pressure increases such that it reaches the ideal peeling-ballooning (PB) stability boundary, the manner of this cyclic process is shown in figure~\ref{fig:PBcrash}. This model was proposed in 2002\cite{Snyder2002} and has since been developed and corroborated with experimental evidence.\cite{Wilson2002} More specifically, the high edge pressure gradient drives a large bootstrap current in the region which in turn produces $n\squiggle 3-30$ modes\cite{Snyder2009} which lead to eruptions from the plasma edge. The edge plasma rapidly collapses as the PB boundary is approached; this collapse is due to the non-linear growth of MHD instabilities \cite{Wilson2004} that is observed when the edge pressure and current values near the two stability limits.
+In H-mode, type I ELMs are initiated when the pressure increases such that it reaches the ideal peeling-ballooning (PB) stability boundary, the manner of this cyclic process is shown in figure~\ref{fig:PBcrash}. This model was proposed in 2002 \cite{Snyder2002} and has since been developed and corroborated with experimental evidence \cite{Wilson2002}. More specifically, the high edge pressure gradient drives a large bootstrap current in the region which in turn produces $n\squiggle 3-30$ modes \cite{Snyder2009} which lead to eruptions from the plasma edge. The edge plasma rapidly collapses as the PB boundary is approached; this collapse is due to the non-linear growth of MHD instabilities \cite{Wilson2004} that is observed when the edge pressure and current values near the two stability limits.
 
 
 \begin{table}[h]
@@ -75,9 +75,9 @@ Increasing collisionality reduces edge current densities
 \end{figure}
 
 \begin{figure}
-\includegraphics[scale=0.3]{Figures/PBboundary.png}
+\includegraphics[scale=0.5]{Figures/PBmodenumbers.png}
 \centering
-\caption{H-mode pressure cycle up to the peeling-ballooning limit which triggers ELMs \cite{KirkFF}.}\label{fig:PBboundary}
+\caption{Edge current-pressure peeling-ballooning boundary diagram, the values of $n$ on the boundary estimate the most unstable toroidal mode number at that location\cite{Wade2009}.}\label{fig:PBmodenumbers}
 \end{figure}
 
 Level of plasma shaping has a drastic effect on the size of the stable region below the PB limit, which can be seen in figure~\ref{fig:PBshaping}, an example being increased triangularity extends the stable region to encompass higher edge pressure and current values \cite{Lang2013}.
@@ -111,9 +111,9 @@ Edge-plasma eruptions can easily be viewed by measuring the corresponding peak i
 \item they increase sputtering of first-wall materials
 \end{enumerate}
 
-"Type 3 ELMs are observed when the power crossing the separatrix is just above the H-mode power threshold, and may result from resistive instabilities, since they occur at pressure gradients well below the ideal limit and can be stabilized by increasing the edge electron temperature"\citep{Hill1997}
+\textbf{"Type 3 ELMs are observed when the power crossing the separatrix is just above the H-mode power threshold, and may result from resistive instabilities, since they occur at pressure gradients well below the ideal limit and can be stabilized by increasing the edge electron temperature"} \cite{Hill1997}
 
-Hill 1997\cite{Hill1997} says it is not understood why ELMs produce a large heat pulse at the inner divertor target than at the outer plates (in single-null divertors)
+\textbf{Hill 1997 \cite{Hill1997} says it is not understood why ELMs produce a large heat pulse at the inner divertor target than at the outer plates (in single-null divertors)}
 
 \textbf{What changes ELM frequency:}
 "The critical pressure gradient for the destabilization of the ideal ballooning mode [6] depends on the local flux-surface averaged magnetic shear, S, and the safety factor, q, which Gohil evaluated at the 95\% flux surface in his study (S95/q295). Thus, anything which increases the rate that the pressure builds up reduces the time required to hit the stability limit and increases the ELM frequency, while anything that raises the limit, such as increasing the current (lowers q95) or triangularity (increases S), increases the time required to hit the stability limit and reduces the ELM frequency."\cite{Hill1997}
@@ -146,8 +146,6 @@ Another import factor is the ELM divertor footprint - the area of energy deposit
 The maximum allowed energy flux per ELM of $0.5$ MJ m$^{-2}$ can be translated into a maximum loss of energy by the plasma per ELM which, when calculated gives $\Delta W_{ELM}~=~0.66$~MJ\cite{Loarte2010conf}. This limit requires a thirty fold decrease in ELM energy from the natural $\Delta W_{ELM}$ of 20 MJ. 
 
 \textbf{include some figures from Kirk's talk showing the varying requirements on ELM frequency enforced by these different factors (PFC health, impurity levels etc.)}
-
-
 
 There is a limit on the minimum ELM frequency necessary for ITER's operation due to the need to remove impurities (page5/6)\cite{Loarte2014a}, unless other methods of enhancing transport can be utilised.
 
@@ -209,7 +207,7 @@ Snyder \textit{et al.} have proposed a mechanism for RMP induced suppression \ci
 
 Edge safety factor, $q_{95}$ - safety factor at 95\% poloidal flux, imposes strict boundaries on suppression on DIII-D. ELM suppression is only seen for $3.32 < q_{95} < 3.67$ \cite{Fenstermacher2008}, which poses issues as the expected value is around $q_{95} = 3$ in the default ITER scenario \cite{Gormezano2007}. This "q-window" in which suppression occurs is less wide for ITER similar shaped (ISS) plasmas than for plasma shapes with lower triangularity \cite{Evans2008}. 
 
-The explanation\cite{Snyder2012} of RMP suppression also provides potential answer for the existance of these "q-windows".
+The explanation \cite{Snyder2012} of RMP suppression also provides potential answer for the existance of these "q-windows". Positioning of the edge safety factor $q_{95}$ dictates the location of the resonant island chain or stochastic layer. If this is situated in a select region, within the pressure-current ELM recovery path, it will prevent a crash. For $q_{95}$ values outside of this window, this chain or layer will either be too deep in the plasma, allowing ELMs to occur, or too close to the edge and thus not effective as it is blocked by the plasma response \cite{Snyder2012}.
 
 Plasma response to RMP activation is discussed in \cite{Waelbroeck2009}.
 
