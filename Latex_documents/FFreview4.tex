@@ -32,6 +32,8 @@
 \bibliography{BIB_FFreview4}
 % bun citep amirite!!!
 \newcommand{\citep}[1]{\cite{#1}}
+%stop paper titles being printed in bibliography
+\AtEveryBibitem{\clearfield{title}}
 
 % APpendix
 \usepackage[toc,page]{appendix}
@@ -179,6 +181,7 @@ ELM magnitude scales as $f_{ELM}.\Delta W_{ELM}~\squiggle$ constant \cite{Loarte
 
 As discussed in section~\ref{sec:Problems}, the ELM deposition area on the divertor scales with ELM energy. In ITER's testing phase the full extent of this relationship must be established in order to gauge how high it is beneficial to raise $f_{ELM}$ by pellet pacing (or another triggering method). If said relationship was found to be very firm it will make these triggering methods redundant for ELM damage reduction \cite{Lang2013}.
 
+RMP introduction instigates slowing of the plasma rotation on DIII-D \cite{Kirk2013}.
 
 
 \subsection{Vertical Kicks}\label{ssec:Vkicks}
@@ -195,12 +198,14 @@ Vertical kicks have the greatest effect on the position of the top and bottom of
 De la Luna \textit{et al.} have shown the effectiveness of vertical kicks for ELM control on JET \cite{DelaLuna2016}. These experiments were conducted with the ILW in JET, which is the machine closest in size to ITER, to lower the complexity of extrapolation to operation on ITER, compared with other devices. 
 
 \begin{figure}
-\includegraphics[scale=0.5]{Figures/VKshape.PNG}
+\includegraphics[scale=0.5]{Figures/VKdata.PNG}
 \centering
 \caption{Visualisation of ELM frequency locking to the vertical plasma motion caused by vertical kicks. Panel (a) shows the VS coil current, (b) measured stored energy, (c) the average edge $n_e$ (green) and the pedestal temperature (black) and (d) $f_{ELM}$, the ELM frequency with the vertical kick frequency indicated by the red arrows \cite{DelaLuna2016}.}\label{fig:VKdata}
 \end{figure}
 
-Figure~\ref{fig:VKdata} 
+Figure~\ref{fig:VKdata} encapsulates the ability of vertical kicks to control ELM frequency. The kick frequency, $f_{kick}$, delivered first at 17 seconds was approximately equal to the natural ELM frequency of the plasma and this triggering had little to no effect on plasma properties such as $n_e$. De la Luna \textit{et al.} state that this shows that kicks change plasma parameters only via physical mechanisms directly linked to $f_{ELM}$ increases \cite{DelaLuna2016}.
+
+ELM triggering by vertical kicks can be used to lower plasma core impurity levels, which may be useful in shot sections with higher chances of W build-up in ITER. A key advantage of vertical kicks over pellet pacing is that there is no unwanted density increase for vertical kicks, whereas too much pellet injection could negatively affect the plasma. Additionally, vertical kicks can be utilised in any part of a discharge, unlike RMP control because it is a resonant effect \cite{DelaLuna2016}.
 
 
 \subsection{Evidence for these methods in practice}\label{ssec:EIP}
