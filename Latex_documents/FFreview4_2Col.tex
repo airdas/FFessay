@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}  % for review and submission
+\documentclass[11pt, twocolumn]{article}  % for review and submission
 %\documentclass[aps,preprint,showpacs,superscriptaddress,groupedaddress]{revtex4}  % for double-spaced preprint
 \usepackage{graphicx}  % needed for figures
 \usepackage{dcolumn}   % needed for some tables
@@ -34,6 +34,10 @@
 \newcommand{\citep}[1]{\cite{#1}}
 %stop paper titles being printed in bibliography
 \AtEveryBibitem{\clearfield{title}}
+%stop "In:" being printed before journal name
+\renewbibmacro{in:}{}
+%small bibliography font size
+\renewcommand*{\bibfont}{\small}
 
 % APpendix
 \usepackage[toc,page]{appendix}
@@ -186,13 +190,17 @@ As discussed in section~\ref{sec:Problems}, the ELM deposition area on the diver
 
 Pellet triggering has been experimented with alongside gas injection ELM control on JET \cite{Lennholm2015}. The gas injection controller was able to regain the target $f_{ELM}$ within 0.5 s after a given disturbance caused it to change. Parallel use of these control systems allowed more continued study of pellet injection triggering. Even when a pellet does not trigger an ELM, the gas injection keeps $f_{ELM}$ at the required level, giving optimal fusion performance throughout the discharge as W impurities are continually flushed out \cite{Lennholm2015}.
 
-A phenomenon known as trigger lag was seen on experiments on tokamaks with metal (W) walls, AUG-W and JET-ILW. This imposes a limit on the possible $f_{ELM}$ that can be reached by pellet injection, as a pellet injected too soon after an ELM does not prompt an ELM. In previous campaigns on these machines, with non-metal carbon walls, trigger lag was not observed \cite{Baylor2015}. Additionally, in AUG-W, when nitrogen was injected into the divertor region the trigger lag time reduced by a factor of 5, to $\squiggle 2$ ms \citep{Baylor2015}.
+A phenomenon known as trigger lag was seen on experiments on tokamaks with metal (W) walls, AUG-W and JET-ILW. This imposes a limit on the possible $f_{ELM}$ that can be reached by pellet injection, as a pellet injected too soon after an ELM does not prompt an ELM. In previous campaigns on these machines, with non-metal carbon walls, trigger lag was not observed \cite{Baylor2015}. Additionally, in AUG-W, when nitrogen was injected into the divertor region the trigger lag time reduced by a factor of 5, to $\squiggle 2$ ms \citep{Baylor2015}. 
 
 \begin{figure}
-\includegraphics[scale=0.5]{Figures/PI_ELMprob.png}
+\includegraphics[scale=0.35]{Figures/PI_ELMprob.png}
 \centering
-\caption{Efficiency of pellet ELM triggering on JET depending on the size of the pellet used and the time since the last natural ELM \cite{Chapman2016}.}\label{fig:PI_ELMprob}
+\caption{Efficiency of pellet ELM triggering on JET depending on the size of the pellet used and the time since the last natural ELM \cite{Baylor2015}.}\label{fig:PI_ELMprob}
 \end{figure}
+
+Pellet injection on AUG shows that this lag time is unaffected by injection velocity or pellet mass, and instead is dependent on the current plasma scenario \cite{Lang2014}. Triggering by this method has a wide range of success rates over different plasma scenarios. For instance, on AUG, ELM triggering is extremely successful when nitrogen gas is seeded in the divertor region \cite{Kallenbach2012}. 
+
+
 
 
 \subsection{Vertical Kicks}\label{ssec:Vkicks}
@@ -206,7 +214,13 @@ Fractional shifts in the vertical position of the plasma, $\squiggle 1-3\%$ of t
 
 Vertical kicks have the greatest effect on the position of the top and bottom of the edge plasma \cite{Gerhardt2010}. Figure~\ref{fig:VKshape}, on NSTX, shows how the top edge plasma moves by up to 10 cm, while the center of the plasma moves approximately 4 cm and the bottom edge remained essentially stationary. The compression instigated by the kicks caused a minor, $< 2\%$, reduction in plasma volume on JET \cite{DelaLuna2016}. In addition, while the top edge plasma on JET moved a similar amount to that in NSTX, 7 cm, the bottom edge also moved, albeit a factor 3 shorter distance \cite{DelaLuna2016}. This disparity is likely down to the different shaped devices, NSTX is a spherical tokamak, and the fact that JET's major radius is over 3 times larger, potentially making plasma motions more easily detected.
 
-De la Luna \textit{et al.} have shown the effectiveness of vertical kicks for ELM control on JET \cite{DelaLuna2016}. These experiments were conducted with the ILW in JET, which is the machine closest in size to ITER, to lower the complexity of extrapolation to operation on ITER, compared with other devices. 
+\begin{figure}
+\includegraphics[scale=0.35]{Figures/VKELMprob.png}
+\centering
+\caption{Efficiency of vertical kick ELM triggering on JET depending on the kick magnitude and the time since the last natural ELM \cite{Chapman2016}.}\label{fig:VKELMprob}
+\end{figure}
+
+De la Luna \textit{et al.} have shown the effectiveness of vertical kicks for ELM control on JET \cite{DelaLuna2016}. These experiments were conducted with the ILW in JET, which is the machine closest in size to ITER, to lower the complexity of extrapolation to operation on ITER, compared with other devices. A plot of triggering efficiency averaged over 150 kicks on JET can be seen in figure~\ref{fig:VKELMprob}
 
 \begin{figure}
 \includegraphics[scale=0.5]{Figures/VKdata.PNG}
@@ -249,6 +263,8 @@ The explanation \cite{Snyder2012} of RMP suppression also provides potential ans
 Plasma response to RMP activation is discussed in \cite{Waelbroeck2009}.
 
 
+Due to the wide variation of ELM triggering success with pellet injection, significant further study is required regarding the potential for ELM control using this method in different regimes on ITER. The disparity in the accomplishments of the technique when operating with carbon walls versus metal walls calls into question pellet injection's potential usefulness on ITER. If pellet injection can only bring $f_{ELM}$ above the required PFC and divertor damage threshold in certain scenarios then ITER may be left with a severely curtailed domain of operation. However, the localised benefits of pellet triggering will no doubt be useful. Overall plant efficiency could be increased if pellet injection can serve a double purpose of ELM triggering and refuelling; it is estimated that 40\% of the refuelling requirements of ITER can be provided by pellets used for ELM control \cite{Loarte2014a}, potentially allowing, in future, the complete coalescing of these two vital components of plasma control. The close alignment of results from AUG and JET, with metal walls, provides hope for the success of pellet injection on ELM triggering for ITER \cite{Lang2015}.
+
 
 Vertical stability coils may be implemented as a fall back ELM control method \cite{Loarte2014a}. VS coils were already included into the design, just not initially for ELM triggering (they have been used in most tokamaks already for tweaking purposes prior to the realisation that they can be used to control ELMs). De la Luna \textit{et al.}'s expectation is that vertical kicks are a promising method of ELM control for ITER \cite{DelaLuna2016}. Furthermore, the same group found that there is a threshold to the vertical motion traversed by the plasma to produce an ELM. This threshold distance is reduced for lower edge collisionalities and higher pedestal temperatures. Given that ITER will operate in H-mode at quite high temperature and relatively low collisionality this is promising for its ELM control process. The shorter the distance the plasma is forced to move, the more rapidly the motion can be repeated and the lower the chance is of causing consequential instabilities (such as destabilising core modes).
 
@@ -263,7 +279,8 @@ Quiescent H-mode (QH-mode) retains the benefits of the central pedestal without 
 \subsection{I-Mode}
 The I-mode is an operating regime that combines the desirable elements of H- and L-mode \cite{Whyte2010} and has automatic ELM suppression \cite{Marmar2015}. It is more easily available to higher-field machines and has been investigated most considerably on Alcator C-Mod. Core impurity levels are lowered in I-mode as it lacks an edge particle transport barrier, while retaining the edge energy transport barrier. Hence, I-mode can be distinguished by observing an H-mode like temperature pedestal along with an L-mode like density profile \cite{Whyte2010}.
 
-
+\section{Conclusion}
+To summarise, the ELM suppression and mitigation techniques discussed in this paper require further investigation before they can be reliably implemented on ITER. The 
 
 
 \printbibliography
