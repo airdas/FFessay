@@ -51,8 +51,12 @@
 %\date{\today}
 \maketitle
 
-\section{Abstract}
+%\section{Abstract}
+\begin{abstract}
 Here will lie the abstract
+\end{abstract}
+
+\tableofcontents
 
 \section{Background}\label{sec:Bg}
 Since their experimental observation over thirty years ago \cite{Keilhacker1984}, edge localised modes (ELMs) have attracted a large amount of research interest. Toroidal magnetic field devices looking to maximise power production must operate in the high confinement regime (H-mode), in which the central plasma density profile is raised up on a pedestal, providing enhanced confinement \cite{Wagner2007}. This elevation is caused by a steep pressure gradient in the separatrix (the boundary between open and closed field lines at the edge of the plasma). Due to the unstable nature of this gradient, ELMs periodically disrupt the edge plasma, causing energy and particle losses; ELMs are a type of magnetohydrodynamic (MHD) instability \cite{Zohm1996}.
@@ -113,7 +117,7 @@ f_{ELM}\Delta W_{ELM} = 0.2-0.4 P_{SOL}
 
 Edge collisionality has an important role in the effectiveness of ELM control, when using RMP coils it can be the deciding factor between ELM suppression and mitigation \cite{Kirk2013}. Suppression is complete removal of ELMs, whereas mitigation is when their frequency is increased (causing a corresponding decrease in power due to equation~\ref{eq:fELM}.
 
-The structure of this review is as follows: in section~\ref{sec:Problems}, the predicted difficulties for operation of ITER as a result of ELMs are discussed. In section~\ref{sec:Control}, methods for ELM suppression and mitigation are summarised (specifically resonant magnetic perturbations, pellet injection and vertical kicks) and comments are made regarding their implementation and effectiveness on ITER. Finally section~\ref{sec:Future} includes suggestions for further work required in order to operate ITER in ELM suppressed or mitigated scenarios.
+The structure of this review is as follows: in section~\ref{sec:Problems}, the predicted difficulties for operation of ITER as a result of ELMs are discussed. In section~\ref{sec:Control}, methods for ELM suppression and mitigation are summarised (specifically resonant magnetic perturbations, pellet injection and vertical kicks) and comments are made regarding their implementation and effectiveness on ITER. Finally, section~\ref{sec:altmodes} briefly looks at alternative operating modes for tokamaks and section~\ref{sec:Future} includes suggestions for further work required in order to operate ITER in ELM suppressed or mitigated scenarios.
 
 
 \section{Problems for ITER}\label{sec:Problems}
@@ -146,7 +150,7 @@ RMP ELM control seeks to influence the edge plasma so as to hold it below the PB
 
 Plasma density and confinement are reduced by around $10\%$ by the use of RMP coils \cite{Lang2013}; nevertheless, researchers using AUG saw a factor 6 reduction in core plasma energy loss in ELM-mitigated shots with $n_{RMP}=2$ toroidal edge perturbations \cite{Suttrop2011}. Again on AUG, pellet injection was used to combat the density reduction in ELM mitigated regime and also to bring the edge density above the threshold level necessary to reach said ELM mitigated regime \cite{Lang2012}. There appears to exist a minimum edge plasma density below which ELM mitigation will not occur \cite{Suttrop2011}, hence pellet injection will need to be used in tandem with RMP control in ITER in order to keep the edge density above this threshold throughout the duration of a shot.
 
-DIII-D has been used to investigate ELM suppression in plasmas with similar shapes and collisionalities to ITER \cite{Evans2008,Lanctot2013}, with suppression at collisionalities $\nu_c^* < 0.35$ but only mitigation above that. Experiments on MAST \cite{Kirk2013a} using $n_{RMP}=4 $ and $6$ have achieved mitigation, increasing $f_{ELM}$ eightfold. KSTAR has seen, with $n_{RMP}=1$, complete suppression of ELMs and also two distinct stages after RMP activation. First the plasma energy, toroidal rotation and density decrease by a small factor while the ELMs are being suppressed. Secondly, when ELMs are fully suppressed, these quantities plateau \cite{Kwak2013}. At AUG, similar discoveries have been made using $n_{RMP}=2$ \cite{Fischer2012,Suttrop2011} and, perhaps most importantly, strong mitigation was observed on JET under operation with an ITER-like wall (ILW) \cite{Liang2013}. 
+DIII-D has been used to investigate ELM suppression in plasmas with similar shapes and collisionalities to ITER \cite{Evans2008,Lanctot2013,Mordijck2011}, with suppression at collisionalities $\nu_c^* < 0.35$ but only mitigation above that. Experiments on MAST \cite{Kirk2013a} using $n_{RMP}=4 $ and $6$ have achieved mitigation, increasing $f_{ELM}$ eightfold. KSTAR has seen, with $n_{RMP}=1$, complete suppression of ELMs and also two distinct stages after RMP activation. First the plasma energy, toroidal rotation and density decrease by a small factor while the ELMs are being suppressed. Secondly, when ELMs are fully suppressed, these quantities plateau \cite{Kwak2013}. At AUG, similar discoveries have been made using $n_{RMP}=2$ \cite{Fischer2012,Suttrop2011} and, perhaps most importantly, strong mitigation was observed on JET under operation with an ITER-like wall (ILW) \cite{Liang2013}. 
 
 ITER's tungsten divertor introduces further requirements on ELM control \cite{KirkFF} W build up in the plasma core could cause catastrophic energy losses; hence, additional methods to provide enhanced transport will need to be implemented, else low power ELMs must be allowed to occur to provide this enhancement. ELMs, however, are the main source of divertor impurities in the main plasma, so their suppression could itself be sufficient to bring core levels of W below the required threshold. Experiments on AUG found that in a type I ELM-mitigated regime the fraction of W in the plasma is lower by a factor of 2 compared to in unmitigated regimes \cite{Suttrop2011}.
 
@@ -174,7 +178,7 @@ Pellet triggering has been experimented with alongside gas injection ELM control
 A phenomenon known as trigger lag was seen on experiments on tokamaks with metal (W) walls, AUG-W and JET-ILW. This imposes a limit on the possible $f_{ELM}$ that can be reached by pellet injection, as a pellet injected too soon after an ELM does not prompt an ELM. In previous campaigns on these machines, with non-metal carbon walls, trigger lag was not observed \cite{Baylor2015}. Additionally, in AUG-W, when nitrogen was injected into the divertor region the trigger lag time reduced by a factor of 5, to $\squiggle 2$ ms \citep{Baylor2015}. 
 
 \begin{figure}
-\includegraphics[scale=0.35]{Figures/PI_ELMprob.png}
+\includegraphics[scale=0.35]{Figures/ELMcycles.png}
 \centering
 \caption{Efficiency of pellet ELM triggering on JET depending on the size of the pellet used and the time since the last natural ELM \cite{Baylor2015}.}\label{fig:PI_ELMprob}
 \end{figure}
@@ -194,7 +198,7 @@ Fractional shifts in the vertical position of the plasma, $\squiggle 1-3\%$ of t
 Vertical kicks have the greatest effect on the position of the top and bottom of the edge plasma \cite{Gerhardt2010}. Figure~\ref{fig:VKshape}, on NSTX, shows how the top edge plasma moves by up to 10 cm, while the center of the plasma moves approximately 4 cm and the bottom edge remained essentially stationary. The compression instigated by the kicks caused a minor, $< 2\%$, reduction in plasma volume on JET \cite{DelaLuna2016}. In addition, while the top edge plasma on JET moved a similar amount to that in NSTX, 7 cm, the bottom edge also moved, albeit a factor 3 shorter distance \cite{DelaLuna2016}. This disparity is likely down to the different shaped devices, NSTX is a spherical tokamak, and the fact that JET's major radius is over 3 times larger, potentially making plasma motions more easily detected.
 
 \begin{figure}
-\includegraphics[scale=0.35]{Figures/VKELMprob.png}
+\includegraphics[scale=0.35]{Figures/ELMcycles.png}
 \centering
 \caption{Efficiency of vertical kick ELM triggering on JET depending on the kick magnitude and the time since the last natural ELM \cite{Chapman2016}.}\label{fig:VKELMprob}
 \end{figure}
@@ -212,11 +216,6 @@ Figure~\ref{fig:VKdata} encapsulates the ability of vertical kicks to control EL
 ELM triggering by vertical kicks can be used to lower plasma core impurity levels, which may be useful in shot sections with higher chances of W build-up in ITER. A key advantage of vertical kicks over pellet pacing is that there is no unwanted density increase for vertical kicks, whereas too much pellet injection could negatively affect the plasma. Additionally, vertical kicks can be utilised in any part of a discharge, unlike RMP control because it is a resonant effect \cite{DelaLuna2016}.
 
 With the JET ILW, ELM triggering by vertical kick was very successful and sturdy over a wide range of operating criteria; most critically, regimented triggering was seen over a large window of pedestal collisionalities ($\nu^*_e \squiggle 0.2-0.6$) \cite{DelaLuna2016}. The same JET team also found that the plasma parameters heavily influenced the threshold vertical kick magnitude required to prompt an ELM. 
-
-
-\subsection{Evidence for these methods in practice}\label{ssec:EIP}
-DIII-D experiment showing complete ELM suppression (DIII-D geometry is similar to ITER's) \cite{Mordijck2011}
-
 
 \subsection{How these methods will work on ITER}\label{ssec:onITER}
 ITER will utilise at least two major ELM control systems, RMP coils and pellet injectors \cite{Loarte2010}. Figure~\ref{fig:ITERcoils} shows the planned positions of the ELM control coils in ITER.
@@ -240,22 +239,29 @@ The explanation \cite{Snyder2012} of RMP suppression also provides potential ans
 
 Due to the wide variation of ELM triggering success with pellet injection, significant further study is required regarding the potential for ELM control using this method in different regimes on ITER. The disparity in the accomplishments of the technique when operating with carbon walls versus metal walls calls into question pellet injection's potential usefulness on ITER. If pellet injection can only bring $f_{ELM}$ above the required PFC and divertor damage threshold in certain scenarios then ITER may be left with a severely curtailed domain of operation. However, the localised benefits of pellet triggering will no doubt be useful. Overall plant efficiency could be increased if pellet injection can serve a double purpose of ELM triggering and refuelling; it is estimated that 40\% of the refuelling requirements of ITER can be provided by pellets used for ELM control \cite{Loarte2014a}, potentially allowing, in future, the complete coalescing of these two vital components of plasma control. The close alignment of results from AUG and JET, with metal walls, provides hope for the success of pellet injection on ELM triggering for ITER \cite{Lang2015}.
 
+By selecting not just the ideal pellet mass but also the optimal injection point, the heat flux incident on the divertor can be brought to an optimised minimum \citep{Baylor2015}.
 
-Vertical stability coils may be implemented as a fall back ELM control method \cite{Loarte2014a}. VS coils were already included into the design, just not initially for ELM triggering (they have been used in most tokamaks already for tweaking purposes prior to the realisation that they can be used to control ELMs). De la Luna \textit{et al.}'s expectation is that vertical kicks are a promising method of ELM control for ITER \cite{DelaLuna2016}. Furthermore, the same group found that there is a threshold to the vertical motion traversed by the plasma to produce an ELM. This threshold distance is reduced for lower edge collisionalities and higher pedestal temperatures. Given that ITER will operate in H-mode at quite high temperature and relatively low collisionality this is promising for its ELM control process. The shorter the distance the plasma is forced to move, the more rapidly the motion can be repeated and the lower the chance is of causing consequential instabilities (such as destabilising core modes).
+Vertical stability coils may be implemented as a fall back ELM control method \cite{Loarte2014a}. VS coils were already included into the design, just not initially for ELM triggering (they have been used in most tokamaks already for tweaking purposes prior to the realisation that they can be used to control ELMs). De la Luna \textit{et al.} expects that vertical kicks will be a promising method of ELM control for ITER \cite{DelaLuna2016}. Furthermore, the same group found that there is a threshold to the vertical motion traversed by the plasma to produce an ELM. This threshold distance is reduced for lower edge collisionalities and higher pedestal temperatures. Given that ITER will operate in H-mode at quite high temperature and relatively low collisionality this is promising for its ELM control process. The shorter the distance the plasma is forced to move, the more rapidly the motion can be repeated and the lower the chance is of causing consequential instabilities (such as destabilising core modes).
+
+The fact that VKs do not utilise any resonant effect in triggering ELMs means that they can be applied at any time throughout a shot \cite{Chapman2016}. This is especially useful in temporal regions when the $q-$profile is evolving or in the initial current ramping phase. Another benefit of VKs is that they can be used in plasmas with high helium content (minimal evidence of the effectiveness of pellet pacing in these conditions exists) \citep{Chapman2016}, this may be useful in the later stages of shots on ITER. 
+
+\section{Alternative modes of operation}\label{sec:altmodes}
+Quiescent H-mode (QH-mode) retains the benefits of the central pedestal without the cyclic energy losses by ELMs, which are damaging to both fusion performance and the device's components. It has been attained on several tokamaks; namely DIII-D, JET and ASDEX-U \cite{Burrell2002, Suttrop2005}, and is a potentially promising operating regime for ITER if enough prior research and solid extrapolation can be performed.
+
+The I-mode is an operating regime that combines the desirable elements of H- and L-mode \cite{Whyte2010} and has automatic ELM suppression \cite{Marmar2015}. It is more easily available to higher-field machines and has been investigated most considerably on Alcator C-Mod. Core impurity levels are lowered in I-mode as it lacks an edge particle transport barrier, while retaining the edge energy transport barrier. Hence, I-mode can be distinguished by observing an H-mode like temperature pedestal along with an L-mode like density profile \cite{Whyte2010}.
 
 \section{Necessary future work}\label{sec:Future}
 Before the first plasma run in ITER, it must be able to operate in a regime with strictly controlled ELMs in order to ensure a reasonable lifetime of the machine. More work is required to build a stronger physical basis of suppression and mitigation in ITER-like scenarios, building from DIII-D \cite{Evans2008,Lanctot2013} and JET \cite{Liang2013} experiments, such that more realistic extrapolations can be drawn regarding the potential success of these control techniques on ITER.
 
 Alongside the development of the optimal RMP mode to apply in ITER's different regimes, there must be continual assessment of the projected lifetimes of the ELM control coils. Provisions need to be made for the worst case scenario in which several coils fail quickly: a protocol of which perturbations are conducted depending on the arrangement of the remaining coils. 
 
-Quiescent H-mode (QH-mode) retains the benefits of the central pedestal without the cyclic energy losses by ELMs, which are damaging to both fusion performance and the device's components. It has been attained on several tokamaks; namely DIII-D, JET and ASDEX-U \cite{Burrell2002, Suttrop2005}, and is a potentially promising operating regime for ITER if enough prior research and solid extrapolation can be performed.
+Pellet injection has the potential to provide sufficient mitigation for ITER in all sections of a discharge \citep{Baylor2015}. However, more work is needed to gain a better understanding of the mechanisms behind ELM triggering by pellet injection. More specifically, in depth knowledge is required in order to accurately predict the results of pellet injection over the whole range of ITER's operating regimes. The efficiency saving of combination of refuelling and pellet triggering techniques may not be fully understood prior to ITER and will have to be assessed during the early phases of it's operation \citep{Baylor2015}.
 
+Vertical kick usage can produce mitigated ELM scenarios alongside controlling accumulation of core plasma impurities \cite{DelaLuna2016}. Another positive of VKs is the fact that they can be carried out with existing hardware on ITER: vertical stability coils have been included in the design since before it was realised that VKs could be used for ELM control. Additional experiments must be undertaken to build a more solid basis regarding the triggering mechanism that VKs take advantage of. Once the underlying physics is better understood, more solid predictions for their operation on ITER can be made \citep{DelaLuna2016}.
 
-\subsection{I-Mode}
-The I-mode is an operating regime that combines the desirable elements of H- and L-mode \cite{Whyte2010} and has automatic ELM suppression \cite{Marmar2015}. It is more easily available to higher-field machines and has been investigated most considerably on Alcator C-Mod. Core impurity levels are lowered in I-mode as it lacks an edge particle transport barrier, while retaining the edge energy transport barrier. Hence, I-mode can be distinguished by observing an H-mode like temperature pedestal along with an L-mode like density profile \cite{Whyte2010}.
+To summarise, the ELM suppression and mitigation techniques discussed in this paper require further investigation before they can be reliably implemented on ITER. The basis for the necessary hardware's inclusion into the physical structure has been achieved and, while something, much of the evidence collected in this review is compelling in view of these ELM control techniques' success in keeping ITER operational for as long as possible.
 
-\section{Conclusion}
-To summarise, the ELM suppression and mitigation techniques discussed in this paper require further investigation before they can be reliably implemented on ITER. The 
+Each of the three ELM control methods reviewed have positives and negatives, and overall complement each other rather well. RMP control will likely be employed the most frequently, as it has the potential to provide complete suppression of ELMs - which is the most desirable regime for ITER. Pellet injection and vertical kick mitigation techniques both have their own useful domains in ITER's operation, mainly in discharge sections in which resonant effects cannot be used. It is expected that an optimised configuration of these three techniques will provide ample opportunity for ELM control on ITER, allowing higher records to be set in fusion performance.
 
 
 \printbibliography
