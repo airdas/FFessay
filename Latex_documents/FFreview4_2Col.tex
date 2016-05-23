@@ -10,8 +10,9 @@
 
 %\linespread{1.8} %double-spacing
 
-\usepackage{anysize}
-\marginsize{20mm}{20mm}{15mm}{15mm}
+\usepackage[hmarginratio=1:1,top=15mm, bottom=15mm, left=20mm, right=20mm,columnsep=20pt]{geometry} % Document margins
+%\usepackage{anysize}
+%\marginsize{20mm}{20mm}{15mm}{15mm}
 %\marginsize{left}{right}{top}{bottom}
 %\usepackage[left = 15mm, top = 15mm]{geometry} %margins
 
@@ -62,21 +63,19 @@ In H-mode, type I ELMs are initiated when the pressure increases such that it re
 \centering
 \caption{The different instability modes resulting from combinations of pedestal pressure, $p_{ped}$, and current $J_{ped}$.\cite{Lang2013}}
 \label{tab:PB}
-\begin{tabular}{lll}
+\begin{tabular}{ l | l | l}
 \hline
 \textbf{$p_{ped}$}   & \textbf{$J_{ped}$} & \textbf{Mode} \\ \hline
-   High      &    Low     &  Ballooning \\
+   High      &    Low     &  Ballooning \\ 
    Low       &    High    &  Peeling    \\
    High      &    High    &  Peeling-ballooning
 \end{tabular}
 \end{table}
 
-\textbf{Increasing collisionality reduces edge current densities...}
-
 \begin{figure}
 \includegraphics[scale=0.5]{Figures/ELMcrash.PNG}
 \centering
-\caption{Pressure-current pathway followed throughout an ELM cycle\cite{Perez2004}. An ELM is initiated when the peeling stability boundary is passed in the top right corner, returning the edge to a low pressure, low current state in the bottom left corner. The edge pressure is then built up quite rapidly to the ballooning limit by heating, compared to the edge current which increases more slowly, on a resistive timescale, until the crash. The edge pressure rests at the ballooning limit until the current increases across the peeling limit. Normalised edge pressure is on the $x$-axis.}\label{fig:PBcrash}
+\caption{Pressure-current pathway followed throughout an ELM cycle \cite{Perez2004}. An ELM is initiated when the peeling stability boundary is passed in the top right corner, returning the edge to a low pressure, low current state in the bottom left corner. The edge pressure is then built up quite rapidly to the ballooning limit by heating, compared to the edge current which increases more slowly, on a resistive timescale, until the crash. The edge pressure rests at the ballooning limit until the current increases across the peeling limit. Normalised edge pressure is on the $x$-axis.}\label{fig:PBcrash}
 \end{figure}
 
 \begin{figure}
@@ -85,7 +84,7 @@ In H-mode, type I ELMs are initiated when the pressure increases such that it re
 \caption{Edge current-pressure peeling-ballooning boundary diagram, the values of $n$ on the boundary estimate the most unstable toroidal mode number at that location \cite{Wade2009}.}\label{fig:PBmodenumbers}
 \end{figure}
 
-Level of plasma shaping has a drastic effect on the size of the stable region below the PB limit, which can be seen in figure~\ref{fig:PBshaping}, an example being increased triangularity extends the stable region to encompass higher edge pressure and current values \cite{Lang2013}.
+Level of plasma shaping has a drastic effect on the size of the stable region below the PB limit, which can be seen in figure~\ref{fig:PBshaping}, an example being increased triangularity extends the stable region to encompass higher edge pressure and current values \cite{Lang2013}. Edge plasma collisionality has a distinct effect of the rate of ELMs. Increasing collisionality reduces edge current density, allowing the plasma profile to remain below the peeling stability limit and thus suppress ELMs \cite{Kirk2013}.
 
 \begin{figure}
 \includegraphics[scale=0.6]{Figures/PBshaping.PNG}
@@ -102,8 +101,6 @@ Current understanding is that ELMs of different magnitudes are produced dependin
 \end{figure}
 
 Despite the many negative effects of ELMs on reactor lifetime, they do drive some positive processes such as enhanced transport which reduces impurity fraction in the bulk plasma. As a result of this, a controlled amount of low power ELMs may be desired to keep the core clean and give the ability to control the plasma density~\citep{Hill1997}. The positive impact of this impurity removal is greater than the resulting drop in fusion performance due to loss of energy confinement~\cite{Connor2008}.
-
-
 
 Edge-plasma eruptions can easily be viewed by measuring the corresponding peak in $H_{\alpha}$ emission at the eruption position~\citep{Hill1997}.
 
@@ -220,10 +217,10 @@ Vertical kicks have the greatest effect on the position of the top and bottom of
 \caption{Efficiency of vertical kick ELM triggering on JET depending on the kick magnitude and the time since the last natural ELM \cite{Chapman2016}.}\label{fig:VKELMprob}
 \end{figure}
 
-De la Luna \textit{et al.} have shown the effectiveness of vertical kicks for ELM control on JET \cite{DelaLuna2016}. These experiments were conducted with the ILW in JET, which is the machine closest in size to ITER, to lower the complexity of extrapolation to operation on ITER, compared with other devices. A plot of triggering efficiency averaged over 150 kicks on JET can be seen in figure~\ref{fig:VKELMprob}
+De la Luna \textit{et al.} have shown the effectiveness of vertical kicks for ELM control on JET \cite{DelaLuna2016}. These experiments were conducted with the ILW in JET, which is the machine closest in size to ITER, to lower the complexity of extrapolation to operation on ITER, compared with other devices. A plot of triggering efficiency averaged over 150 kicks on JET can be seen in figure~\ref{fig:VKELMprob}.
 
 \begin{figure}
-\includegraphics[scale=0.5]{Figures/VKdata.PNG}
+\includegraphics[scale=0.4]{Figures/VKdata.PNG}
 \centering
 \caption{Visualisation of ELM frequency locking to the vertical plasma motion caused by vertical kicks. Panel (a) shows the VS coil current, (b) measured stored energy, (c) the average edge $n_e$ (green) and the pedestal temperature (black) and (d) $f_{ELM}$, the ELM frequency with the vertical kick frequency indicated by the red arrows \cite{DelaLuna2016}.}\label{fig:VKdata}
 \end{figure}
@@ -258,9 +255,7 @@ Snyder \textit{et al.} have proposed a mechanism for RMP induced suppression \ci
 
 Edge safety factor, $q_{95}$ - safety factor at 95\% poloidal flux, imposes strict boundaries on suppression on DIII-D. ELM suppression is only seen for $3.32 < q_{95} < 3.67$ \cite{Fenstermacher2008}, which poses issues as the expected value is around $q_{95} = 3$ in the default ITER scenario \cite{Gormezano2007}. This "q-window" in which suppression occurs is less wide for ITER similar shaped (ISS) plasmas than for plasma shapes with lower triangularity \cite{Evans2008}. 
 
-The explanation \cite{Snyder2012} of RMP suppression also provides potential answer for the existance of these "q-windows". Positioning of the edge safety factor $q_{95}$ dictates the location of the resonant island chain or stochastic layer. If this is situated in a select region, within the pressure-current ELM recovery path, it will prevent a crash. For $q_{95}$ values outside of this window, this chain or layer will either be too deep in the plasma, allowing ELMs to occur, or too close to the edge and thus not effective as it is blocked by the plasma response \cite{Snyder2012}.
-
-Plasma response to RMP activation is discussed in \cite{Waelbroeck2009}.
+The explanation \cite{Snyder2012} of RMP suppression also provides potential answer for the existance of these "q-windows". Positioning of the edge safety factor $q_{95}$ dictates the location of the resonant island chain or stochastic layer. If this is situated in a select region, within the pressure-current ELM recovery path, it will prevent a crash. For $q_{95}$ values outside of this window, this chain or layer will either be too deep in the plasma, allowing ELMs to occur, or too close to the edge and thus not effective as it is blocked by the plasma response \cite{Snyder2012}. Plasma response to RMP activation is discussed in \cite{Waelbroeck2009}.
 
 
 Due to the wide variation of ELM triggering success with pellet injection, significant further study is required regarding the potential for ELM control using this method in different regimes on ITER. The disparity in the accomplishments of the technique when operating with carbon walls versus metal walls calls into question pellet injection's potential usefulness on ITER. If pellet injection can only bring $f_{ELM}$ above the required PFC and divertor damage threshold in certain scenarios then ITER may be left with a severely curtailed domain of operation. However, the localised benefits of pellet triggering will no doubt be useful. Overall plant efficiency could be increased if pellet injection can serve a double purpose of ELM triggering and refuelling; it is estimated that 40\% of the refuelling requirements of ITER can be provided by pellets used for ELM control \cite{Loarte2014a}, potentially allowing, in future, the complete coalescing of these two vital components of plasma control. The close alignment of results from AUG and JET, with metal walls, provides hope for the success of pellet injection on ELM triggering for ITER \cite{Lang2015}.
