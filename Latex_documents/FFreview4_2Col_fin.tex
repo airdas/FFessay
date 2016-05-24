@@ -7,7 +7,6 @@
 \usepackage{hyperref}  %to use \autoref to reference objects
 \usepackage[export]{adjustbox} %alignment of figures
 
-
 %\linespread{1.8} %double-spacing
 
 \usepackage[hmarginratio=1:1,top=15mm, bottom=15mm, left=15mm, right=15mm,columnsep=20pt]{geometry} % Document margins
@@ -51,13 +50,15 @@
 \title{Current understanding of tokamak plasma eruption control and the consequences for ITER}
 \author{Joe Allen, JOA509}
 %\date{\today}
-\maketitle
 
-%\section{Abstract}
-\begin{abstract}
-The background of edge localised modes (ELMs), theoretical bases of different methods of their control and ways they are put into practice are reviewed in this article, along with a short discussion of alternative modes of tokamak operation. ELMs are a generic feature of tokamak H-mode operation and their detrimental effect on density and energy confinement, along with first wall component lifetime, means that their control is key for successful operation of ITER. Three main ELM control methods are discussed; resonant magnetic perturbations, pellet injection and vertical kicks. Positives and drawbacks of each technique are examined, specifically in view of their domain of utility on ITER. Progress in controlling these ubiquitous H-mode plasma eruptions has come a long way and been rapidly developed by global collaborations; however, more groundwork is required to ensure the safe extrapolation of these control schemes to all ITER scenarios. 
-\end{abstract}
-
+\twocolumn[
+\begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+\noindent The background of edge localised modes (ELMs), theoretical bases of different methods of their control and ways they are put into practice are reviewed in this article, along with a short discussion of alternative modes of tokamak operation. ELMs are a generic feature of tokamak H-mode operation and their detrimental effect on density and energy confinement, along with first wall component lifetime, means that their control is key for successful operation of ITER. Three main ELM control methods are discussed; resonant magnetic perturbations, pellet injection and vertical kicks. Positives and drawbacks of each technique are examined, specifically in view of their domain of utility on ITER. Progress in controlling these ubiquitous H-mode plasma eruptions has come a long way and been rapidly developed by global collaborations; however, more groundwork is required to ensure the safe extrapolation of these control schemes to all ITER scenarios. 
+	\end{abstract}
+\end{@twocolumnfalse}
+]
 \tableofcontents
 
 \section{Background}\label{sec:Bg}
