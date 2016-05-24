@@ -10,7 +10,7 @@
 
 %\linespread{1.8} %double-spacing
 
-\usepackage[hmarginratio=1:1,top=15mm, bottom=15mm, left=20mm, right=20mm,columnsep=20pt]{geometry} % Document margins
+\usepackage[hmarginratio=1:1,top=15mm, bottom=15mm, left=15mm, right=15mm,columnsep=20pt]{geometry} % Document margins
 %\usepackage{anysize}
 %\marginsize{20mm}{20mm}{15mm}{15mm}
 %\marginsize{left}{right}{top}{bottom}
@@ -53,13 +53,13 @@
 
 %\section{Abstract}
 \begin{abstract}
-The theoretical bases for edge localised modes (ELMs), the different methods of their control and how they are being put into practice are reviewed in this article. ELMs are a generic feature of tokamak H-mode operation and their detrimental effect regarding density and energy confinement, along with first wall component lifetime, means that their control is key for successful continual operation of ITER. 
+The background of edge localised modes (ELMs), theoretical bases of different methods of their control and ways they are put into practice are reviewed in this article. ELMs are a generic feature of tokamak H-mode operation and their detrimental effect on density and energy confinement, along with first wall component lifetime, means that their control is key for successful operation of ITER. Three main ELM control methods are discussed; resonant magnetic perturbations, pellet injection and vertical kicks. Positives and drawbacks of each technique are examined, specifically in view of their domain of utility on ITER. Progress in controlling these ubiquitous H-mode plasma eruptions has come a long way and been rapidly developed by global collaborations; however, more groundwork is required to ensure the safe extrapolation of these control schemes to all ITER scenarios. 
 \end{abstract}
 
 \tableofcontents
 
 \section{Background}\label{sec:Bg}
-Since their experimental observation over thirty years ago \cite{Keilhacker1984}, edge localised modes (ELMs) have attracted a large amount of research interest. Toroidal magnetic field devices looking to maximise power production must operate in the high confinement regime (H-mode), in which the central plasma density profile is raised up on a pedestal, providing enhanced confinement \cite{Wagner2007}. This elevation is caused by a steep pressure gradient in the separatrix (the boundary between open and closed field lines at the edge of the plasma). Due to the unstable nature of this gradient, ELMs periodically disrupt the edge plasma, causing energy and particle losses; ELMs are a type of magnetohydrodynamic (MHD) instability \cite{Zohm1996}.
+Since their experimental observation over thirty years ago \cite{Keilhacker1984}, edge localised modes (ELMs) have attracted a large amount of research interest. Toroidal magnetic field devices looking to maximise power production must operate in the high confinement regime (H-mode), in which the central plasma density profile is raised up on a pedestal, providing enhanced confinement \cite{Wagner2007}. This elevation is caused by a steep pressure gradient in the separatrix (the boundary between open and closed field lines at the edge of the plasma). Due to the unstable nature of this gradient, ELMs periodically disrupt the edge plasma, causing energy and particle losses; ELMs are a type of magnetohydrodynamic (MHD) instability \cite{Zohm1996}. There are several types of ELMs, type I ELMs are the main subject of this review.
 
 In H-mode, type I ELMs are initiated when the pressure increases such that it reaches the ideal peeling-ballooning (PB) stability boundary, the manner of this cyclic process is shown in figure~\ref{fig:PBcrash}. This model was proposed in 2002 \cite{Snyder2002} and has since been developed and corroborated with experimental evidence \cite{Wilson2002}. More specifically, the high edge pressure gradient drives a large bootstrap current in the region which in turn produces $n~\squiggle~3-30$ modes \cite{Snyder2009} which lead to eruptions from the plasma edge. The edge plasma rapidly collapses as the PB boundary is approached; this collapse is due to the non-linear growth of MHD instabilities \cite{Wilson2004} that is observed when the edge pressure and current values near the two stability limits.
 
@@ -133,17 +133,15 @@ A limit has been set on the maximum power fluxes allowed onto the PFCs, specific
 
 ITER will be able to tolerate ELM energies of under 1 MJ per eruption; given that a single ELM can release a small fraction of the entire plasma energy, estimated to be up to around $20\%$ of the pedestal plasma energy \cite{Loarte2003}. Thus, a natural type I ELM in ITER could release 20 MJ in 500 $\mu$s \cite{KirkFF}, which is an unfeasibly high heat flux for the device. ITER is designed to operate at $I_p = 15$ MA and $Q_{DT} = 10$; however, if it lacks the necessary ability to control ELMs the divertor and PFCs will start to degrade faster than desirable at plasma currents of $6-9$ MA \cite{Lang2013}. Extended operation in the designed scenario would then not be possible.
 
-Predictions have been drawn from analysis of data from current machines as to the maximum ELM energy flux impacting the divertor which does not significantly impact its lifetime: for the design scenario above ($I_p = 15$ MA, $Q_{DT} = 10$) this is approximately $0.5$ MJ m$^{-2}$ \cite{LoarteTR2013}. ITER is expected to have a natural ELM frequency of around 1 Hz \cite{KirkFF} and there are estimated to be between $500-1000$ ELMs per shot in the $Q_{DT}=10$ scenario. If each ELM in this operating scenario causes a degradation of $0.1 \mu$m in an area of the W divertor, the capability of ITER will be reduced to less than thirty days of operation or a maximum of 100 shots \cite{Lang2013} (assuming four discharges per day). With a cost exceeding 100 M€ \cite{Tsitrone2013} and an long period of enforced downtime during replacement, the collaboration cannot afford to render the divertor useless so quickly. $100$.
+Predictions have been drawn from analysis of data from current machines as to the maximum ELM energy flux impacting the divertor which does not significantly impact its lifetime: for the design scenario above ($I_p = 15$ MA, $Q_{DT} = 10$) this is approximately $0.5$ MJ m$^{-2}$ \cite{LoarteTR2013}. ITER is expected to have a natural ELM frequency of around 1 Hz \cite{KirkFF} and there are estimated to be between $500-1000$ ELMs per shot in the $Q_{DT}=10$ scenario. If each ELM in this operating scenario causes a degradation of $0.1 \mu$m in an area of the W divertor, the capability of ITER will be reduced to less than thirty days of operation or a maximum of 100 shots \cite{Lang2013} (assuming four discharges per day). With a cost exceeding 100 M€ \cite{Tsitrone2013} and a long period of enforced downtime during replacement, the collaboration cannot afford to render the divertor useless so quickly. $100$.
 
 Another import factor is the ELM divertor footprint - the area of energy deposition on the divertor plates - which has been shown to decrease with decreasing $\Delta W_{ELM}$ \cite{Eich2011}. While being beneficial for uncontrolled natural ELMs this somewhat reduces the effectiveness of increasing $f_{ELM}$, regarding equation~\ref{eq:fELM}, as the heat flux incident on the divertor will not fall indefinitely with decreasing $\Delta W_{ELM}$ due to the divertor footprint becoming very small. The ratio $E_{inner}/E_{outer} \approx 2$ \cite{Eich2007} of the asymmetry of ELM heat flux deposition on the inner and outer divertor plates further exacerbates this problem. This fact means that the threshold power dumped out of the plasma by ELMs on ITER is further reduced to prevent the inner divertor degrading at too quick a rate.
 
 The maximum allowed energy flux per ELM of $0.5$ MJ m$^{-2}$ can be translated into a maximum loss of energy by the plasma per ELM which, when calculated gives $\Delta W_{ELM}~=~0.66$~MJ\cite{Loarte2010conf}. This limit requires a thirty fold decrease in ELM energy from the natural $\Delta W_{ELM}$ of 20 MJ. 
 
-\textbf{include some figures from Kirk's talk showing the varying requirements on ELM frequency enforced by these different factors (PFC health, impurity levels etc.)}
-
 There is a limit on the minimum ELM frequency necessary for ITER's operation due to the need to remove impurities (page5/6) \cite{Loarte2014a}, unless other methods of enhancing transport can be utilised. 
 
-\section{Current methods for ELM control}\label{sec:Control}
+\section{Methods for ELM control}\label{sec:Control}
 
 \subsection{Resonant Magnetic Perturbations (RMPs)}\label{ssec:RMP}
 RMP ELM control seeks to influence the edge plasma so as to hold it below the PB stability limit throughout the discharge. If the edge pressure can be maintained just under this limit type I ELMs will not be triggered; this is very beneficial to the overall fusion performance of the machine as the core plasma will a sufficiently high pressure. If the transport rate in the edge transport barrier (ETB) can be augmented through external influence the plasma pressure can be made to level off below the critical PB stability boundary. 
@@ -178,7 +176,7 @@ Pellet triggering has been experimented with alongside gas injection ELM control
 A phenomenon known as trigger lag was seen on experiments on tokamaks with metal (W) walls, AUG-W and JET-ILW. This imposes a limit on the possible $f_{ELM}$ that can be reached by pellet injection, as a pellet injected too soon after an ELM does not prompt an ELM. In previous campaigns on these machines, with non-metal carbon walls, trigger lag was not observed \cite{Baylor2015}. Additionally, in AUG-W, when nitrogen was injected into the divertor region the trigger lag time reduced by a factor of 5, to $\squiggle 2$ ms \citep{Baylor2015}. 
 
 \begin{figure}
-\includegraphics[scale=0.35]{Figures/ELMcycles.png}
+\includegraphics[scale=0.45]{Figures/PI_ELMprob.png}
 \centering
 \caption{Efficiency of pellet ELM triggering on JET depending on the size of the pellet used and the time since the last natural ELM \cite{Baylor2015}.}\label{fig:PI_ELMprob}
 \end{figure}
@@ -198,7 +196,7 @@ Fractional shifts in the vertical position of the plasma, $\squiggle 1-3\%$ of t
 Vertical kicks have the greatest effect on the position of the top and bottom of the edge plasma \cite{Gerhardt2010}. Figure~\ref{fig:VKshape}, on NSTX, shows how the top edge plasma moves by up to 10 cm, while the center of the plasma moves approximately 4 cm and the bottom edge remained essentially stationary. The compression instigated by the kicks caused a minor, $< 2\%$, reduction in plasma volume on JET \cite{DelaLuna2016}. In addition, while the top edge plasma on JET moved a similar amount to that in NSTX, 7 cm, the bottom edge also moved, albeit a factor 3 shorter distance \cite{DelaLuna2016}. This disparity is likely down to the different shaped devices, NSTX is a spherical tokamak, and the fact that JET's major radius is over 3 times larger, potentially making plasma motions more easily detected.
 
 \begin{figure}
-\includegraphics[scale=0.35]{Figures/ELMcycles.png}
+\includegraphics[scale=0.43]{Figures/VKELMprob.png}
 \centering
 \caption{Efficiency of vertical kick ELM triggering on JET depending on the kick magnitude and the time since the last natural ELM \cite{Chapman2016}.}\label{fig:VKELMprob}
 \end{figure}
@@ -206,7 +204,7 @@ Vertical kicks have the greatest effect on the position of the top and bottom of
 De la Luna \textit{et al.} have shown the effectiveness of vertical kicks for ELM control on JET \cite{DelaLuna2016}. These experiments were conducted with the ILW in JET, which is the machine closest in size to ITER, to lower the complexity of extrapolation to operation on ITER, compared with other devices. A plot of triggering efficiency averaged over 150 kicks on JET can be seen in figure~\ref{fig:VKELMprob}.
 
 \begin{figure}
-\includegraphics[scale=0.4]{Figures/VKdata.PNG}
+\includegraphics[scale=0.433]{Figures/VKdata.PNG}
 \centering
 \caption{Visualisation of ELM frequency locking to the vertical plasma motion caused by vertical kicks. Panel (a) shows the VS coil current, (b) measured stored energy, (c) the average edge $n_e$ (green) and the pedestal temperature (black) and (d) $f_{ELM}$, the ELM frequency with the vertical kick frequency indicated by the red arrows \cite{DelaLuna2016}.}\label{fig:VKdata}
 \end{figure}
